@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>open_browser_resident</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ce30be44-3c4a-4af1-91f1-1e746c9a7b69</testCaseGuid>
-</TestCaseEntity>
