@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edit_Bill,Chrome 137.0.7151.70,,,14-06-2025 20:50:20,14-06-2025 20:51:01,41.394s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:50:21,14-06-2025 20:50:32,11.561s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:50:22,14-06-2025 20:50:29,7.304s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:50:29,14-06-2025 20:50:29,0.291s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:50:29,14-06-2025 20:50:30,1.237s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:50:30,14-06-2025 20:50:31,0.600s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:31,14-06-2025 20:50:32,0.514s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:50:32,14-06-2025 20:50:32,0.830s,PASSED
+,,,,,,,
+Test Cases/bill/edit/bill_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:50:33,14-06-2025 20:50:47,14.300s,PASSED
+"DATA BINDING - {""date"":""15/3/2024"",""toiletMoney"":""20000"",""numWater"":""5"",""residentName"":""Khang Hoài"",""numberOfApartme..."":""101"",""numElec"":""19"",""status"":""NotPaid""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:50:33,14-06-2025 20:50:37,3.739s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:50:37,14-06-2025 20:50:37,0.091s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:37,14-06-2025 20:50:37,0.441s,PASSED
+"click(findTestObject(""bill/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:37,14-06-2025 20:50:38,0.660s,PASSED
+"click(findTestObject(""bill/edit/selectNumOfApart""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:38,14-06-2025 20:50:39,0.693s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectNumOfApart""), numberOfApartment, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:39,14-06-2025 20:50:39,0.656s,PASSED
+"click(findTestObject(""bill/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:39,14-06-2025 20:50:40,0.373s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:40,14-06-2025 20:50:40,0.585s,PASSED
+"setText(findTestObject(""bill/edit/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:50:40,14-06-2025 20:50:41,0.671s,PASSED
+"setText(findTestObject(""bill/edit/txtNumberElec""), numElec)",Chrome 137.0.7151.70,,,14-06-2025 20:50:41,14-06-2025 20:50:41,0.588s,PASSED
+"setText(findTestObject(""bill/edit/txtNumberWater""), numWater)",Chrome 137.0.7151.70,,,14-06-2025 20:50:41,14-06-2025 20:50:42,0.611s,PASSED
+"setText(findTestObject(""bill/edit/txtToiletMoney""), toiletMoney)",Chrome 137.0.7151.70,,,14-06-2025 20:50:42,14-06-2025 20:50:43,0.591s,PASSED
+"click(findTestObject(""bill/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:43,14-06-2025 20:50:43,0.469s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:43,14-06-2025 20:50:44,0.599s,PASSED
+"click(findTestObject(""bill/edit/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:44,14-06-2025 20:50:44,0.435s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:50:44,14-06-2025 20:50:44,0.062s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Bill updated successfully!""",,14-06-2025 20:50:44,14-06-2025 20:50:44,0.030s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:50:44,14-06-2025 20:50:44,0.035s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:50:44,14-06-2025 20:50:46,2.087s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:50:46,14-06-2025 20:50:47,0.613s,PASSED
+,,,,,,,
+Test Cases/bill/edit/bill_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:50:47,14-06-2025 20:51:01,13.829s,PASSED
+"DATA BINDING - {""date"":""15/10/2023"",""toiletMoney"":""30000"",""numWater"":""25"",""residentName"":""Huy Cao"",""numberOfApartme..."":""201"",""numElec"":""49"",""status"":""Pay""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:50:47,14-06-2025 20:50:51,3.811s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:50:51,14-06-2025 20:50:51,0.098s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:51,14-06-2025 20:50:52,0.633s,PASSED
+"click(findTestObject(""bill/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:52,14-06-2025 20:50:52,0.588s,PASSED
+"click(findTestObject(""bill/edit/selectNumOfApart""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:52,14-06-2025 20:50:53,0.694s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectNumOfApart""), numberOfApartment, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:53,14-06-2025 20:50:54,0.586s,PASSED
+"click(findTestObject(""bill/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:54,14-06-2025 20:50:54,0.343s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:54,14-06-2025 20:50:55,0.583s,PASSED
+"setText(findTestObject(""bill/edit/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:50:55,14-06-2025 20:50:55,0.627s,PASSED
+"setText(findTestObject(""bill/edit/txtNumberElec""), numElec)",Chrome 137.0.7151.70,,,14-06-2025 20:50:55,14-06-2025 20:50:56,0.573s,PASSED
+"setText(findTestObject(""bill/edit/txtNumberWater""), numWater)",Chrome 137.0.7151.70,,,14-06-2025 20:50:56,14-06-2025 20:50:56,0.572s,PASSED
+"setText(findTestObject(""bill/edit/txtToiletMoney""), toiletMoney)",Chrome 137.0.7151.70,,,14-06-2025 20:50:56,14-06-2025 20:50:57,0.595s,PASSED
+"click(findTestObject(""bill/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:57,14-06-2025 20:50:57,0.329s,PASSED
+"selectOptionByValue(findTestObject(""bill/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:50:57,14-06-2025 20:50:58,0.529s,PASSED
+"click(findTestObject(""bill/edit/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:50:58,14-06-2025 20:50:58,0.320s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:50:58,14-06-2025 20:50:58,0.034s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Bill updated successfully!""",,14-06-2025 20:50:58,14-06-2025 20:50:58,0.011s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:50:58,14-06-2025 20:50:58,0.017s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:50:58,14-06-2025 20:51:00,2.010s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:51:00,14-06-2025 20:51:01,0.829s,PASSED

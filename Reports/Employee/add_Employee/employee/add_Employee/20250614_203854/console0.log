@@ -1,0 +1,350 @@
+2025-06-14 20:39:00.069 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/employee/add_Employee
+2025-06-14 20:39:00.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cao Nguyễn Xuân Huy
+2025-06-14 20:39:00.204 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QLCC
+2025-06-14 20:39:00.205 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = DELL - host.docker.internal
+2025-06-14 20:39:00.206 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-14 20:39:00.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.44
+2025-06-14 20:39:00.208 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-14 20:39:01.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:01.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_success
+2025-06-14 20:39:01.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 20:39:01.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 20:39:01.092 INFO  c.k.katalon.core.main.TestCaseExecutor   - expectedMsg = userHuy1
+2025-06-14 20:39:01.689 DEBUG testcase.login_success                   - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 20:39:02.049 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:02.092 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:02.094 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:02.261 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 167 ms
+2025-06-14 20:39:02.262 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:02.262 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:02.287 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:04.637 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 53a9936f3c695087d9aa9311efdcfed5
+2025-06-14 20:39:04.640 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:04.641 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:04.642 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:04.655 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:05.320 DEBUG testcase.login_success                   - 2: maximizeWindow()
+2025-06-14 20:39:05.425 DEBUG testcase.login_success                   - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 20:39:06.313 DEBUG testcase.login_success                   - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 20:39:06.957 DEBUG testcase.login_success                   - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 20:39:07.310 DEBUG testcase.login_success                   - 6: verifyTextPresent(expectedMsg, false)
+2025-06-14 20:39:08.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_success
+2025-06-14 20:39:08.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:08.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:08.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên A
+2025-06-14 20:39:08.147 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = female
+2025-06-14 20:39:08.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 15/06/1979
+2025-06-14 20:39:08.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 2251190071
+2025-06-14 20:39:08.149 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0159315748
+2025-06-14 20:39:08.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = cleaner
+2025-06-14 20:39:08.151 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 8h - 16h
+2025-06-14 20:39:08.322 DEBUG testcase.employee_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:39:08.329 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:39:08.814 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:08.816 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:08.816 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:08.910 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 93 ms
+2025-06-14 20:39:08.911 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:08.911 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:08.911 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:10.284 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0cc70f87f336b4defa7467f138436a9c
+2025-06-14 20:39:10.285 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:10.286 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:10.287 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:10.288 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:11.835 DEBUG testcase.employee_add_success            - 2: maximizeWindow()
+2025-06-14 20:39:11.923 DEBUG testcase.employee_add_success            - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:39:12.460 DEBUG testcase.employee_add_success            - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:39:13.055 DEBUG testcase.employee_add_success            - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:39:13.882 DEBUG testcase.employee_add_success            - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:39:14.298 DEBUG testcase.employee_add_success            - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:39:14.908 DEBUG testcase.employee_add_success            - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:39:15.466 DEBUG testcase.employee_add_success            - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:39:16.035 DEBUG testcase.employee_add_success            - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:39:16.605 DEBUG testcase.employee_add_success            - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:39:16.956 DEBUG testcase.employee_add_success            - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:39:17.528 DEBUG testcase.employee_add_success            - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:39:18.090 DEBUG testcase.employee_add_success            - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:39:18.393 DEBUG testcase.employee_add_success            - 15: waitForAlert(2)
+2025-06-14 20:39:18.451 DEBUG testcase.employee_add_success            - 16: verifyAlertPresent(2)
+2025-06-14 20:39:18.478 DEBUG testcase.employee_add_success            - 17: acceptAlert()
+2025-06-14 20:39:18.505 DEBUG testcase.employee_add_success            - 18: delay(2)
+2025-06-14 20:39:20.566 DEBUG testcase.employee_add_success            - 19: closeBrowser()
+2025-06-14 20:39:21.040 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:21.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:21.176 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:21.193 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên B
+2025-06-14 20:39:21.194 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:39:21.195 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 1/1/1970
+2025-06-14 20:39:21.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 3315581564
+2025-06-14 20:39:21.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0369741258
+2025-06-14 20:39:21.197 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = guard
+2025-06-14 20:39:21.198 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 19h - 7h
+2025-06-14 20:39:21.200 DEBUG testcase.employee_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:39:21.208 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:21.210 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:21.211 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:21.360 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 149 ms
+2025-06-14 20:39:21.360 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:21.360 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:21.360 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:22.772 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b7605c9849a6f9a11ab93b0d171c2dc0
+2025-06-14 20:39:22.774 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:22.775 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:22.775 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:22.777 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:24.348 DEBUG testcase.employee_add_success            - 2: maximizeWindow()
+2025-06-14 20:39:24.468 DEBUG testcase.employee_add_success            - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:39:24.897 DEBUG testcase.employee_add_success            - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:39:25.565 DEBUG testcase.employee_add_success            - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:39:26.457 DEBUG testcase.employee_add_success            - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:39:26.773 DEBUG testcase.employee_add_success            - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:39:27.314 DEBUG testcase.employee_add_success            - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:39:27.873 DEBUG testcase.employee_add_success            - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:39:28.440 DEBUG testcase.employee_add_success            - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:39:29.003 DEBUG testcase.employee_add_success            - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:39:29.321 DEBUG testcase.employee_add_success            - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:39:29.843 DEBUG testcase.employee_add_success            - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:39:30.403 DEBUG testcase.employee_add_success            - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:39:30.713 DEBUG testcase.employee_add_success            - 15: waitForAlert(2)
+2025-06-14 20:39:30.735 DEBUG testcase.employee_add_success            - 16: verifyAlertPresent(2)
+2025-06-14 20:39:30.745 DEBUG testcase.employee_add_success            - 17: acceptAlert()
+2025-06-14 20:39:30.760 DEBUG testcase.employee_add_success            - 18: delay(2)
+2025-06-14 20:39:32.778 DEBUG testcase.employee_add_success            - 19: closeBrowser()
+2025-06-14 20:39:33.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:33.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:33.226 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:33.239 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên C
+2025-06-14 20:39:33.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:39:33.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 31/12/1999
+2025-06-14 20:39:33.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 4416691035
+2025-06-14 20:39:33.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0258741369
+2025-06-14 20:39:33.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = guard
+2025-06-14 20:39:33.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 7h - 19h
+2025-06-14 20:39:33.244 DEBUG testcase.employee_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:39:33.248 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:33.249 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:33.249 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:33.341 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 92 ms
+2025-06-14 20:39:33.341 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:33.341 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:33.341 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:34.362 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 318ec7429ea5e3e138698380ad177c7d
+2025-06-14 20:39:34.363 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:34.363 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:34.364 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:34.365 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:35.930 DEBUG testcase.employee_add_success            - 2: maximizeWindow()
+2025-06-14 20:39:36.014 DEBUG testcase.employee_add_success            - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:39:36.608 DEBUG testcase.employee_add_success            - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:39:37.152 DEBUG testcase.employee_add_success            - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:39:38.029 DEBUG testcase.employee_add_success            - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:39:38.364 DEBUG testcase.employee_add_success            - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:39:38.915 DEBUG testcase.employee_add_success            - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:39:39.483 DEBUG testcase.employee_add_success            - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:39:40.048 DEBUG testcase.employee_add_success            - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:39:40.601 DEBUG testcase.employee_add_success            - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:39:40.931 DEBUG testcase.employee_add_success            - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:39:41.458 DEBUG testcase.employee_add_success            - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:39:42.026 DEBUG testcase.employee_add_success            - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:39:42.330 DEBUG testcase.employee_add_success            - 15: waitForAlert(2)
+2025-06-14 20:39:42.361 DEBUG testcase.employee_add_success            - 16: verifyAlertPresent(2)
+2025-06-14 20:39:42.370 DEBUG testcase.employee_add_success            - 17: acceptAlert()
+2025-06-14 20:39:42.387 DEBUG testcase.employee_add_success            - 18: delay(2)
+2025-06-14 20:39:44.407 DEBUG testcase.employee_add_success            - 19: closeBrowser()
+2025-06-14 20:39:44.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_success
+2025-06-14 20:39:44.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:44.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_required
+2025-06-14 20:39:44.814 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) hoten = 
+2025-06-14 20:39:44.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) gender = 
+2025-06-14 20:39:44.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) dob = 
+2025-06-14 20:39:44.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) cccd = 
+2025-06-14 20:39:44.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) phone = 
+2025-06-14 20:39:44.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) postion = 
+2025-06-14 20:39:44.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) workTime = 
+2025-06-14 20:39:44.882 DEBUG testcase.employee_add_required           - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:39:44.886 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:44.887 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:44.887 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:44.986 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 99 ms
+2025-06-14 20:39:44.986 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:44.986 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:44.986 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:46.164 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4844050d249b27bc54f53cbe540fa198
+2025-06-14 20:39:46.165 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:46.166 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:46.166 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:46.167 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:47.687 DEBUG testcase.employee_add_required           - 2: maximizeWindow()
+2025-06-14 20:39:47.753 DEBUG testcase.employee_add_required           - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:39:48.302 DEBUG testcase.employee_add_required           - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:39:48.825 DEBUG testcase.employee_add_required           - 5: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:39:49.377 DEBUG testcase.employee_add_required           - 6: delay(2)
+2025-06-14 20:39:51.395 DEBUG testcase.employee_add_required           - 7: verifyElementText(findTestObject("employee/addEmployee/requiredName"), "Name is required.")
+2025-06-14 20:39:51.656 DEBUG testcase.employee_add_required           - 8: verifyElementText(findTestObject("employee/addEmployee/requiredGender"), "Gender is required.")
+2025-06-14 20:39:51.918 DEBUG testcase.employee_add_required           - 9: verifyElementText(findTestObject("employee/addEmployee/requiredDOB"), "Date of Birth is required.")
+2025-06-14 20:39:52.164 DEBUG testcase.employee_add_required           - 10: verifyElementText(findTestObject("employee/addEmployee/requiredCCCD"), "CCCD is required.")
+2025-06-14 20:39:52.433 DEBUG testcase.employee_add_required           - 11: verifyElementText(findTestObject("employee/addEmployee/requiredPhone"), "Phone Number is required.")
+2025-06-14 20:39:52.692 DEBUG testcase.employee_add_required           - 12: verifyElementText(findTestObject("employee/addEmployee/requiredPosition"), "Position is required.")
+2025-06-14 20:39:52.943 DEBUG testcase.employee_add_required           - 13: verifyElementText(findTestObject("employee/addEmployee/requiredWorkingTIme"), "Working Time is required.")
+2025-06-14 20:39:53.199 DEBUG testcase.employee_add_required           - 14: delay(2)
+2025-06-14 20:39:55.213 DEBUG testcase.employee_add_required           - 15: closeBrowser()
+2025-06-14 20:39:55.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_required
+2025-06-14 20:39:55.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:39:55.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_fail
+2025-06-14 20:39:55.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên A
+2025-06-14 20:39:55.743 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = female
+2025-06-14 20:39:55.743 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 15/06/1979
+2025-06-14 20:39:55.743 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 2251190071
+2025-06-14 20:39:55.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0159315748
+2025-06-14 20:39:55.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = cleaner
+2025-06-14 20:39:55.744 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 8h - 16h
+2025-06-14 20:39:55.879 DEBUG testcase.employee_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:39:55.883 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:39:55.884 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:39:55.884 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:39:55.996 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 112 ms
+2025-06-14 20:39:55.996 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:39:55.996 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:39:55.996 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:39:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:39:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:39:57.232 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dcf6ada5f647f2012b5de4f4ff3bca2a
+2025-06-14 20:39:57.233 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:39:57.233 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:39:57.233 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:39:57.234 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:39:58.958 DEBUG testcase.employee_add_fail               - 2: maximizeWindow()
+2025-06-14 20:39:59.043 DEBUG testcase.employee_add_fail               - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:39:59.552 DEBUG testcase.employee_add_fail               - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:40:00.129 DEBUG testcase.employee_add_fail               - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:40:00.982 DEBUG testcase.employee_add_fail               - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:40:01.303 DEBUG testcase.employee_add_fail               - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:40:01.846 DEBUG testcase.employee_add_fail               - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:40:02.393 DEBUG testcase.employee_add_fail               - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:40:02.954 DEBUG testcase.employee_add_fail               - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:40:03.518 DEBUG testcase.employee_add_fail               - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:40:03.857 DEBUG testcase.employee_add_fail               - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:40:04.400 DEBUG testcase.employee_add_fail               - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:40:04.954 DEBUG testcase.employee_add_fail               - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:40:05.248 DEBUG testcase.employee_add_fail               - 15: waitForAlert(2)
+2025-06-14 20:40:05.266 DEBUG testcase.employee_add_fail               - 16: verifyAlertPresent(2)
+2025-06-14 20:40:05.274 DEBUG testcase.employee_add_fail               - 17: acceptAlert()
+2025-06-14 20:40:05.290 DEBUG testcase.employee_add_fail               - 18: delay(2)
+2025-06-14 20:40:07.298 DEBUG testcase.employee_add_fail               - 19: closeBrowser()
+2025-06-14 20:40:07.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_fail
+2025-06-14 20:40:07.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:40:07.804 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_fail
+2025-06-14 20:40:07.816 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên B
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 1/1/1970
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 3315581564
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0369741258
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = guard
+2025-06-14 20:40:07.817 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 19h - 7h
+2025-06-14 20:40:07.819 DEBUG testcase.employee_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:40:07.823 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:40:07.824 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:40:07.824 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:40:07.923 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 99 ms
+2025-06-14 20:40:07.923 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:40:07.923 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:40:07.923 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:40:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:40:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:40:09.094 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d2d18757ad8c22a74e34200cd81eb89f
+2025-06-14 20:40:09.094 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:40:09.095 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:40:09.095 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:40:09.096 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:40:10.616 DEBUG testcase.employee_add_fail               - 2: maximizeWindow()
+2025-06-14 20:40:10.684 DEBUG testcase.employee_add_fail               - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:40:11.251 DEBUG testcase.employee_add_fail               - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:40:11.781 DEBUG testcase.employee_add_fail               - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:40:12.621 DEBUG testcase.employee_add_fail               - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:40:12.943 DEBUG testcase.employee_add_fail               - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:40:13.501 DEBUG testcase.employee_add_fail               - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:40:14.044 DEBUG testcase.employee_add_fail               - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:40:14.599 DEBUG testcase.employee_add_fail               - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:40:15.148 DEBUG testcase.employee_add_fail               - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:40:15.452 DEBUG testcase.employee_add_fail               - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:40:15.983 DEBUG testcase.employee_add_fail               - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:40:16.565 DEBUG testcase.employee_add_fail               - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:40:16.856 DEBUG testcase.employee_add_fail               - 15: waitForAlert(2)
+2025-06-14 20:40:17.392 DEBUG testcase.employee_add_fail               - 16: verifyAlertPresent(2)
+2025-06-14 20:40:17.397 DEBUG testcase.employee_add_fail               - 17: acceptAlert()
+2025-06-14 20:40:17.408 DEBUG testcase.employee_add_fail               - 18: delay(2)
+2025-06-14 20:40:19.417 DEBUG testcase.employee_add_fail               - 19: closeBrowser()
+2025-06-14 20:40:19.873 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_fail
+2025-06-14 20:40:19.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:40:19.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/employee/add/employee_add_fail
+2025-06-14 20:40:19.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Nhân viên C
+2025-06-14 20:40:19.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:40:19.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 31/12/1999
+2025-06-14 20:40:19.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 4416691035
+2025-06-14 20:40:19.890 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0258741369
+2025-06-14 20:40:19.891 INFO  c.k.katalon.core.main.TestCaseExecutor   - postion = guard
+2025-06-14 20:40:19.891 INFO  c.k.katalon.core.main.TestCaseExecutor   - workTime = 7h - 19h
+2025-06-14 20:40:19.892 DEBUG testcase.employee_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:40:19.897 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:40:19.898 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:40:19.898 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:40:20.019 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 121 ms
+2025-06-14 20:40:20.019 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:40:20.019 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:40:20.019 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:40:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:40:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:40:21.257 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ce5b83439dc4261f70f2a604220a309a
+2025-06-14 20:40:21.257 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:40:21.258 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:40:21.258 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:40:21.259 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:40:22.784 DEBUG testcase.employee_add_fail               - 2: maximizeWindow()
+2025-06-14 20:40:22.869 DEBUG testcase.employee_add_fail               - 3: click(findTestObject("employee/addEmployee/btn_manageEmployee"))
+2025-06-14 20:40:23.353 DEBUG testcase.employee_add_fail               - 4: click(findTestObject("employee/addEmployee/btnAdd"))
+2025-06-14 20:40:23.877 DEBUG testcase.employee_add_fail               - 5: setText(findTestObject("employee/addEmployee/txtName"), hoten)
+2025-06-14 20:40:24.739 DEBUG testcase.employee_add_fail               - 6: click(findTestObject("employee/addEmployee/selectGender"))
+2025-06-14 20:40:25.060 DEBUG testcase.employee_add_fail               - 7: selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false)
+2025-06-14 20:40:25.595 DEBUG testcase.employee_add_fail               - 8: setText(findTestObject("employee/addEmployee/txtDOB"), dob)
+2025-06-14 20:40:26.137 DEBUG testcase.employee_add_fail               - 9: setText(findTestObject("employee/addEmployee/txtCCCD"), cccd)
+2025-06-14 20:40:26.689 DEBUG testcase.employee_add_fail               - 10: setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone)
+2025-06-14 20:40:27.251 DEBUG testcase.employee_add_fail               - 11: click(findTestObject("employee/addEmployee/selectPosition"))
+2025-06-14 20:40:27.579 DEBUG testcase.employee_add_fail               - 12: selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false)
+2025-06-14 20:40:28.125 DEBUG testcase.employee_add_fail               - 13: setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime)
+2025-06-14 20:40:28.714 DEBUG testcase.employee_add_fail               - 14: click(findTestObject("employee/addEmployee/btnSubmit"))
+2025-06-14 20:40:29.034 DEBUG testcase.employee_add_fail               - 15: waitForAlert(2)
+2025-06-14 20:40:29.058 DEBUG testcase.employee_add_fail               - 16: verifyAlertPresent(2)
+2025-06-14 20:40:29.066 DEBUG testcase.employee_add_fail               - 17: acceptAlert()
+2025-06-14 20:40:29.082 DEBUG testcase.employee_add_fail               - 18: delay(2)
+2025-06-14 20:40:31.087 DEBUG testcase.employee_add_fail               - 19: closeBrowser()
+2025-06-14 20:40:31.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/employee/add/employee_add_fail
+2025-06-14 20:40:31.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-14 20:40:31.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/employee/add_Employee
+2025-06-14 20:40:31.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

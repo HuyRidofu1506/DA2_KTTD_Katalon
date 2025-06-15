@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+delete_Employee,Chrome 137.0.7151.70,,,14-06-2025 20:44:10,14-06-2025 20:44:27,16.447s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:44:11,14-06-2025 20:44:19,7.798s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:44:12,14-06-2025 20:44:16,4.279s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:44:16,14-06-2025 20:44:16,0.176s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:44:16,14-06-2025 20:44:17,0.933s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:44:17,14-06-2025 20:44:18,0.631s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:44:18,14-06-2025 20:44:18,0.392s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:44:18,14-06-2025 20:44:19,0.656s,PASSED
+,,,,,,,
+Test Cases/employee/delete/employee_delete,Chrome 137.0.7151.70,,,14-06-2025 20:44:19,14-06-2025 20:44:27,7.516s,PASSED
+"DATA BINDING - {""(Default) dob"":"""",""(Default) hoten"":"""",""(Default) gende..."":"""",""(Default) cccd"":"""",""(Default) workT..."":"""",""(Default) phone"":"""",""(Default) posti..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:44:19,14-06-2025 20:44:23,3.468s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:44:23,14-06-2025 20:44:23,0.112s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:44:23,14-06-2025 20:44:23,0.495s,PASSED
+"click(findTestObject(""employee/deleteEmployee/btnDel""))",Chrome 137.0.7151.70,,,14-06-2025 20:44:23,14-06-2025 20:44:24,0.486s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:44:24,14-06-2025 20:44:24,0.058s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert: ""Are you sure you want to delete this employee?""",,14-06-2025 20:44:24,14-06-2025 20:44:24,0.024s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:44:24,14-06-2025 20:44:24,0.037s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:44:24,14-06-2025 20:44:26,2.109s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:44:26,14-06-2025 20:44:27,0.598s,PASSED

@@ -1,0 +1,96 @@
+2025-06-14 10:23:46.749 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/login/login
+2025-06-14 10:23:46.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cao Nguyễn Xuân Huy
+2025-06-14 10:23:46.915 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QLCC
+2025-06-14 10:23:46.917 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = DELL - host.docker.internal
+2025-06-14 10:23:46.918 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-14 10:23:46.919 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.44
+2025-06-14 10:23:46.920 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-14 10:23:47.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 10:23:47.749 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_success
+2025-06-14 10:23:47.792 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 10:23:47.793 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 10:23:47.794 INFO  c.k.katalon.core.main.TestCaseExecutor   - expectedMsg = userHuy1
+2025-06-14 10:23:48.328 DEBUG testcase.login_success                   - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 10:23:48.704 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 10:23:48.761 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 10:23:48.764 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 10:24:02.876 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 14112 ms
+2025-06-14 10:24:02.877 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 10:24:02.877 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 10:24:02.899 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 10:24:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 10:24:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 10:24:06.900 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 41011c44ea94dec2fda598ac5c481d7e
+2025-06-14 10:24:06.902 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 10:24:06.903 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 10:24:06.904 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 10:24:06.919 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 10:24:07.524 DEBUG testcase.login_success                   - 2: maximizeWindow()
+2025-06-14 10:24:07.667 DEBUG testcase.login_success                   - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 10:24:08.716 DEBUG testcase.login_success                   - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 10:24:09.320 DEBUG testcase.login_success                   - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 10:24:09.702 DEBUG testcase.login_success                   - 6: verifyTextPresent(expectedMsg, false)
+2025-06-14 10:24:10.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_success
+2025-06-14 10:24:10.474 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 10:24:10.474 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_fail
+2025-06-14 10:24:10.501 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 10:24:10.521 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = 
+2025-06-14 10:24:10.610 DEBUG testcase.login_fail                      - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 10:24:10.616 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 10:24:11.172 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 10:24:11.173 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 10:24:11.173 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 10:24:11.287 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 114 ms
+2025-06-14 10:24:11.287 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 10:24:11.287 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 10:24:11.288 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 10:24:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 10:24:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 10:24:12.522 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6235c617272782c93db0c23df53aeb16
+2025-06-14 10:24:12.523 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 10:24:12.525 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 10:24:12.527 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 10:24:12.528 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 10:24:13.975 DEBUG testcase.login_fail                      - 2: maximizeWindow()
+2025-06-14 10:24:14.063 DEBUG testcase.login_fail                      - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 10:24:14.915 DEBUG testcase.login_fail                      - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 10:24:15.498 DEBUG testcase.login_fail                      - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 10:24:15.846 DEBUG testcase.login_fail                      - 6: verifyAlertPresent(2)
+2025-06-14 10:24:15.926 DEBUG testcase.login_fail                      - 7: delay(2)
+2025-06-14 10:24:17.985 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_fail
+2025-06-14 10:24:17.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 10:24:17.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_fail
+2025-06-14 10:24:18.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = 
+2025-06-14 10:24:18.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 10:24:18.005 DEBUG testcase.login_fail                      - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 10:24:18.011 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 10:24:18.441 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 10:24:18.442 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 10:24:18.442 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 10:24:18.538 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 96 ms
+2025-06-14 10:24:18.538 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 10:24:18.538 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 10:24:18.539 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 10:24:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 10:24:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 10:24:19.567 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6bed6a74e928a8463b9e4dd65ef2b9a6
+2025-06-14 10:24:19.569 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 10:24:19.570 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 10:24:19.571 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 10:24:19.572 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 10:24:20.976 DEBUG testcase.login_fail                      - 2: maximizeWindow()
+2025-06-14 10:24:21.064 DEBUG testcase.login_fail                      - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 10:24:21.826 DEBUG testcase.login_fail                      - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 10:24:22.526 DEBUG testcase.login_fail                      - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 10:24:22.879 DEBUG testcase.login_fail                      - 6: verifyAlertPresent(2)
+2025-06-14 10:24:22.906 DEBUG testcase.login_fail                      - 7: delay(2)
+2025-06-14 10:24:24.922 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_fail
+2025-06-14 10:24:25.348 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-14 10:24:25.348 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/login/login
+2025-06-14 10:24:25.348 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

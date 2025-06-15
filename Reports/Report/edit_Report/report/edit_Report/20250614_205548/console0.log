@@ -1,0 +1,125 @@
+2025-06-14 20:55:54.725 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/report/edit_Report
+2025-06-14 20:55:54.880 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cao Nguyễn Xuân Huy
+2025-06-14 20:55:54.883 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QLCC
+2025-06-14 20:55:54.884 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = DELL - host.docker.internal
+2025-06-14 20:55:54.885 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-14 20:55:54.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.44
+2025-06-14 20:55:54.887 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-14 20:55:55.764 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:55:55.764 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_success
+2025-06-14 20:55:55.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 20:55:55.827 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 20:55:55.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - expectedMsg = userHuy1
+2025-06-14 20:55:56.457 DEBUG testcase.login_success                   - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 20:55:56.796 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:55:56.853 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:55:56.856 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:55:57.061 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 205 ms
+2025-06-14 20:55:57.062 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:55:57.062 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:55:57.092 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:55:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:55:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:55:59.673 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 88d74b8d37714173792b1d969b07ff40
+2025-06-14 20:55:59.675 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:55:59.676 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:55:59.678 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:55:59.692 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:56:00.357 DEBUG testcase.login_success                   - 2: maximizeWindow()
+2025-06-14 20:56:00.524 DEBUG testcase.login_success                   - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 20:56:01.489 DEBUG testcase.login_success                   - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 20:56:02.089 DEBUG testcase.login_success                   - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 20:56:02.474 DEBUG testcase.login_success                   - 6: verifyTextPresent(expectedMsg, false)
+2025-06-14 20:56:03.137 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_success
+2025-06-14 20:56:03.236 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:56:03.236 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/report/edit/report_edit_success
+2025-06-14 20:56:03.263 INFO  c.k.katalon.core.main.TestCaseExecutor   - nameReport = Báo cáo chi tiêu
+2025-06-14 20:56:03.264 INFO  c.k.katalon.core.main.TestCaseExecutor   - date = 15/06/2025
+2025-06-14 20:56:03.264 INFO  c.k.katalon.core.main.TestCaseExecutor   - content = Chung cư thông báo mọi người về giá tiền điện tăng
+2025-06-14 20:56:03.382 DEBUG testcase.report_edit_success             - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:56:03.389 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:56:03.894 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:56:03.895 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:56:03.896 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:56:04.000 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 104 ms
+2025-06-14 20:56:04.000 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:56:04.000 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:56:04.000 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:56:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:56:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:56:05.319 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a9ee8bf56008b143ab9d32b792319992
+2025-06-14 20:56:05.320 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:56:05.322 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:56:05.323 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:56:05.324 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:56:06.950 DEBUG testcase.report_edit_success             - 2: maximizeWindow()
+2025-06-14 20:56:07.059 DEBUG testcase.report_edit_success             - 3: click(findTestObject("report/add/btn_manageReport"))
+2025-06-14 20:56:07.605 DEBUG testcase.report_edit_success             - 4: click(findTestObject("report/edit/btnEdit"))
+2025-06-14 20:56:08.205 DEBUG testcase.report_edit_success             - 5: setText(findTestObject("report/edit/txtName"), nameReport)
+2025-06-14 20:56:09.138 DEBUG testcase.report_edit_success             - 6: setText(findTestObject("report/edit/txtDate"), date)
+2025-06-14 20:56:09.732 DEBUG testcase.report_edit_success             - 7: setText(findTestObject("report/edit/txtContent"), content)
+2025-06-14 20:56:10.383 DEBUG testcase.report_edit_success             - 8: click(findTestObject("report/edit/btnUpdate"))
+2025-06-14 20:56:41.511 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Content is required.'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-14 20:56:41.512 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/report/edit/btnUpdate'. Try using Self-healing.
+2025-06-14 20:56:41.761 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/report/edit/btnUpdate' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='CodedThemes'])[1]/preceding::button[1]'.
+2025-06-14 20:56:41.840 DEBUG testcase.report_edit_success             - 9: waitForAlert(2)
+2025-06-14 20:56:41.906 DEBUG testcase.report_edit_success             - 10: verifyAlertPresent(2)
+2025-06-14 20:56:41.947 DEBUG testcase.report_edit_success             - 11: acceptAlert()
+2025-06-14 20:56:41.989 DEBUG testcase.report_edit_success             - 12: delay(2)
+2025-06-14 20:56:44.088 DEBUG testcase.report_edit_success             - 13: closeBrowser()
+2025-06-14 20:56:44.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/report/edit/report_edit_success
+2025-06-14 20:56:44.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-06-14 20:56:44.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-06-14 20:56:44.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-06-14 20:56:44.516 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-06-14 20:56:44.516 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-06-14 20:56:44.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:56:44.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/report/edit/report_edit_success
+2025-06-14 20:56:44.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - nameReport = Báo cáo hoạt động
+2025-06-14 20:56:44.602 INFO  c.k.katalon.core.main.TestCaseExecutor   - date = 30/04/2025
+2025-06-14 20:56:44.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - content = Các hộ đều thực hiện đúng theo các quy định
+2025-06-14 20:56:44.607 DEBUG testcase.report_edit_success             - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:56:44.612 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:56:44.613 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:56:44.614 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:56:44.736 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 122 ms
+2025-06-14 20:56:44.736 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:56:44.736 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:56:44.737 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:56:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:56:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:56:46.195 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = db27294677360938aa23395457a4f4c9
+2025-06-14 20:56:46.196 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:56:46.197 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:56:46.198 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:56:46.200 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:56:47.892 DEBUG testcase.report_edit_success             - 2: maximizeWindow()
+2025-06-14 20:56:48.011 DEBUG testcase.report_edit_success             - 3: click(findTestObject("report/add/btn_manageReport"))
+2025-06-14 20:56:48.438 DEBUG testcase.report_edit_success             - 4: click(findTestObject("report/edit/btnEdit"))
+2025-06-14 20:56:49.023 DEBUG testcase.report_edit_success             - 5: setText(findTestObject("report/edit/txtName"), nameReport)
+2025-06-14 20:56:49.937 DEBUG testcase.report_edit_success             - 6: setText(findTestObject("report/edit/txtDate"), date)
+2025-06-14 20:56:50.643 DEBUG testcase.report_edit_success             - 7: setText(findTestObject("report/edit/txtContent"), content)
+2025-06-14 20:56:51.545 DEBUG testcase.report_edit_success             - 8: click(findTestObject("report/edit/btnUpdate"))
+2025-06-14 20:57:22.628 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Content is required.'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-14 20:57:22.629 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/report/edit/btnUpdate'. Try using Self-healing.
+2025-06-14 20:57:22.863 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/report/edit/btnUpdate' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='CodedThemes'])[1]/preceding::button[1]'.
+2025-06-14 20:57:22.946 DEBUG testcase.report_edit_success             - 9: waitForAlert(2)
+2025-06-14 20:57:22.989 DEBUG testcase.report_edit_success             - 10: verifyAlertPresent(2)
+2025-06-14 20:57:23.001 DEBUG testcase.report_edit_success             - 11: acceptAlert()
+2025-06-14 20:57:23.022 DEBUG testcase.report_edit_success             - 12: delay(2)
+2025-06-14 20:57:25.039 DEBUG testcase.report_edit_success             - 13: closeBrowser()
+2025-06-14 20:57:25.540 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/report/edit/report_edit_success
+2025-06-14 20:57:25.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-06-14 20:57:25.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-06-14 20:57:25.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-06-14 20:57:25.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-06-14 20:57:25.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-06-14 20:57:25.598 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-14 20:57:25.599 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/report/edit_Report
+2025-06-14 20:57:25.599 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,161 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+add_Employee,Chrome 137.0.7151.70,,,14-06-2025 20:39:00,14-06-2025 20:40:31,1m - 31.472s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:39:01,14-06-2025 20:39:08,6.960s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:01,14-06-2025 20:39:05,3.632s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:05,14-06-2025 20:39:05,0.105s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:39:05,14-06-2025 20:39:06,0.886s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:39:06,14-06-2025 20:39:06,0.643s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:06,14-06-2025 20:39:07,0.353s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:39:07,14-06-2025 20:39:07,0.686s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:39:08,14-06-2025 20:39:21,12.931s,PASSED
+"DATA BINDING - {""gender"":""female"",""phone"":""0159315748"",""dob"":""15/06/1979"",""postion"":""cleaner"",""hoten"":""Nhân viên A"",""workTime"":""8h - 16h"",""cccd"":""2251190071""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:08,14-06-2025 20:39:11,3.513s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:11,14-06-2025 20:39:11,0.087s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:11,14-06-2025 20:39:12,0.536s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:12,14-06-2025 20:39:13,0.594s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:39:13,14-06-2025 20:39:13,0.826s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:13,14-06-2025 20:39:14,0.415s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:14,14-06-2025 20:39:14,0.609s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:39:14,14-06-2025 20:39:15,0.557s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:39:15,14-06-2025 20:39:16,0.568s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:39:16,14-06-2025 20:39:16,0.570s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:16,14-06-2025 20:39:16,0.349s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:16,14-06-2025 20:39:17,0.571s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:39:17,14-06-2025 20:39:18,0.562s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:18,14-06-2025 20:39:18,0.302s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:18,14-06-2025 20:39:18,0.057s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Employee added successfully!""",,14-06-2025 20:39:18,14-06-2025 20:39:18,0.026s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:39:18,14-06-2025 20:39:18,0.026s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:18,14-06-2025 20:39:20,2.060s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:39:20,14-06-2025 20:39:21,0.471s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:39:21,14-06-2025 20:39:33,11.982s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0369741258"",""dob"":""1/1/1970"",""postion"":""guard"",""hoten"":""Nhân viên B"",""workTime"":""19h - 7h"",""cccd"":""3315581564""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:21,14-06-2025 20:39:24,3.148s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:24,14-06-2025 20:39:24,0.120s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:24,14-06-2025 20:39:24,0.428s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:24,14-06-2025 20:39:25,0.667s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:39:25,14-06-2025 20:39:26,0.891s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:26,14-06-2025 20:39:26,0.315s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:26,14-06-2025 20:39:27,0.541s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:39:27,14-06-2025 20:39:27,0.558s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:39:27,14-06-2025 20:39:28,0.566s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:39:28,14-06-2025 20:39:29,0.562s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:29,14-06-2025 20:39:29,0.318s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:29,14-06-2025 20:39:29,0.522s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:39:29,14-06-2025 20:39:30,0.560s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:30,14-06-2025 20:39:30,0.310s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:30,14-06-2025 20:39:30,0.021s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Employee added successfully!""",,14-06-2025 20:39:30,14-06-2025 20:39:30,0.010s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:39:30,14-06-2025 20:39:30,0.014s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:30,14-06-2025 20:39:32,2.017s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:39:32,14-06-2025 20:39:33,0.379s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:39:33,14-06-2025 20:39:44,11.557s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0258741369"",""dob"":""31/12/1999"",""postion"":""guard"",""hoten"":""Nhân viên C"",""workTime"":""7h - 19h"",""cccd"":""4416691035""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:33,14-06-2025 20:39:35,2.686s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:35,14-06-2025 20:39:36,0.083s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:36,14-06-2025 20:39:36,0.593s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:36,14-06-2025 20:39:37,0.544s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:39:37,14-06-2025 20:39:38,0.876s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:38,14-06-2025 20:39:38,0.334s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:38,14-06-2025 20:39:38,0.550s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:39:38,14-06-2025 20:39:39,0.568s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:39:39,14-06-2025 20:39:40,0.565s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:39:40,14-06-2025 20:39:40,0.552s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:40,14-06-2025 20:39:40,0.329s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:39:40,14-06-2025 20:39:41,0.527s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:39:41,14-06-2025 20:39:42,0.568s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:42,14-06-2025 20:39:42,0.303s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:42,14-06-2025 20:39:42,0.030s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Employee added successfully!""",,14-06-2025 20:39:42,14-06-2025 20:39:42,0.009s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:39:42,14-06-2025 20:39:42,0.016s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:42,14-06-2025 20:39:44,2.019s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:39:44,14-06-2025 20:39:44,0.374s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_required,Chrome 137.0.7151.70,,,14-06-2025 20:39:44,14-06-2025 20:39:55,10.940s,PASSED
+"DATA BINDING - {""(Default) dob"":"""",""(Default) hoten"":"""",""(Default) gende..."":"""",""(Default) cccd"":"""",""(Default) workT..."":"""",""(Default) phone"":"""",""(Default) posti..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:44,14-06-2025 20:39:47,2.805s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:47,14-06-2025 20:39:47,0.065s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:47,14-06-2025 20:39:48,0.549s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:48,14-06-2025 20:39:48,0.523s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:48,14-06-2025 20:39:49,0.551s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:49,14-06-2025 20:39:51,2.018s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredName""), ""Name is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:51,14-06-2025 20:39:51,0.261s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredGender""), ""Gender is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:51,14-06-2025 20:39:51,0.261s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredDOB""), ""Date of Birth is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:51,14-06-2025 20:39:52,0.247s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredCCCD""), ""CCCD is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:52,14-06-2025 20:39:52,0.269s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredPhone""), ""Phone Number is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:52,14-06-2025 20:39:52,0.258s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredPosition""), ""Position is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:52,14-06-2025 20:39:52,0.251s,PASSED
+"verifyElementText(findTestObject(""employee/addEmployee/requiredWorkingTIme""), ""Working Time is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:39:52,14-06-2025 20:39:53,0.255s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:39:53,14-06-2025 20:39:55,2.015s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:39:55,14-06-2025 20:39:55,0.511s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_fail,Chrome 137.0.7151.70,,,14-06-2025 20:39:55,14-06-2025 20:40:07,12.070s,PASSED
+"DATA BINDING - {""gender"":""female"",""phone"":""0159315748"",""dob"":""15/06/1979"",""postion"":""cleaner"",""hoten"":""Nhân viên A"",""workTime"":""8h - 16h"",""cccd"":""2251190071""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:39:55,14-06-2025 20:39:58,3.079s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:39:58,14-06-2025 20:39:59,0.084s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:59,14-06-2025 20:39:59,0.508s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:39:59,14-06-2025 20:40:00,0.578s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:40:00,14-06-2025 20:40:00,0.851s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:00,14-06-2025 20:40:01,0.321s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:01,14-06-2025 20:40:01,0.543s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:40:01,14-06-2025 20:40:02,0.547s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:40:02,14-06-2025 20:40:02,0.560s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:40:02,14-06-2025 20:40:03,0.564s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:03,14-06-2025 20:40:03,0.338s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:03,14-06-2025 20:40:04,0.542s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:40:04,14-06-2025 20:40:04,0.553s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:04,14-06-2025 20:40:05,0.293s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:05,14-06-2025 20:40:05,0.018s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add fail: ""Error adding employee. Please try again.""",,14-06-2025 20:40:05,14-06-2025 20:40:05,0.009s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:40:05,14-06-2025 20:40:05,0.015s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:05,14-06-2025 20:40:07,2.007s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:40:07,14-06-2025 20:40:07,0.500s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_fail,Chrome 137.0.7151.70,,,14-06-2025 20:40:07,14-06-2025 20:40:19,12.069s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0369741258"",""dob"":""1/1/1970"",""postion"":""guard"",""hoten"":""Nhân viên B"",""workTime"":""19h - 7h"",""cccd"":""3315581564""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:40:07,14-06-2025 20:40:10,2.798s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:40:10,14-06-2025 20:40:10,0.067s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:10,14-06-2025 20:40:11,0.568s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:11,14-06-2025 20:40:11,0.529s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:40:11,14-06-2025 20:40:12,0.840s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:12,14-06-2025 20:40:12,0.322s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:12,14-06-2025 20:40:13,0.557s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:40:13,14-06-2025 20:40:14,0.543s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:40:14,14-06-2025 20:40:14,0.555s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:40:14,14-06-2025 20:40:15,0.548s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:15,14-06-2025 20:40:15,0.305s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:15,14-06-2025 20:40:15,0.530s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:40:15,14-06-2025 20:40:16,0.581s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:16,14-06-2025 20:40:16,0.291s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:16,14-06-2025 20:40:17,0.536s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add fail: ""Error adding employee. Please try again.""",,14-06-2025 20:40:17,14-06-2025 20:40:17,0.006s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:40:17,14-06-2025 20:40:17,0.010s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:17,14-06-2025 20:40:19,2.008s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:40:19,14-06-2025 20:40:19,0.453s,PASSED
+,,,,,,,
+Test Cases/employee/add/employee_add_fail,Chrome 137.0.7151.70,,,14-06-2025 20:40:19,14-06-2025 20:40:31,11.709s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0258741369"",""dob"":""31/12/1999"",""postion"":""guard"",""hoten"":""Nhân viên C"",""workTime"":""7h - 19h"",""cccd"":""4416691035""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:40:19,14-06-2025 20:40:22,2.892s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:40:22,14-06-2025 20:40:22,0.084s,PASSED
+"click(findTestObject(""employee/addEmployee/btn_manageEmployee""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:22,14-06-2025 20:40:23,0.483s,PASSED
+"click(findTestObject(""employee/addEmployee/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:23,14-06-2025 20:40:23,0.523s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:40:23,14-06-2025 20:40:24,0.862s,PASSED
+"click(findTestObject(""employee/addEmployee/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:24,14-06-2025 20:40:25,0.320s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:25,14-06-2025 20:40:25,0.534s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:40:25,14-06-2025 20:40:26,0.541s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:40:26,14-06-2025 20:40:26,0.552s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:40:26,14-06-2025 20:40:27,0.562s,PASSED
+"click(findTestObject(""employee/addEmployee/selectPosition""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:27,14-06-2025 20:40:27,0.327s,PASSED
+"selectOptionByValue(findTestObject(""employee/addEmployee/selectPosition""), postion, false)",Chrome 137.0.7151.70,,,14-06-2025 20:40:27,14-06-2025 20:40:28,0.546s,PASSED
+"setText(findTestObject(""employee/addEmployee/txtWorkingTime""), workTime)",Chrome 137.0.7151.70,,,14-06-2025 20:40:28,14-06-2025 20:40:28,0.588s,PASSED
+"click(findTestObject(""employee/addEmployee/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:40:28,14-06-2025 20:40:29,0.319s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:29,14-06-2025 20:40:29,0.023s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add fail: ""Error adding employee. Please try again.""",,14-06-2025 20:40:29,14-06-2025 20:40:29,0.007s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:40:29,14-06-2025 20:40:29,0.015s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:40:29,14-06-2025 20:40:31,2.004s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:40:31,14-06-2025 20:40:31,0.498s,PASSED

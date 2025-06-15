@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+add_Report,Chrome 137.0.7151.70,,,14-06-2025 20:53:45,14-06-2025 20:54:31,45.635s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:53:47,14-06-2025 20:53:57,10.695s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:53:48,14-06-2025 20:53:54,6.559s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:53:54,14-06-2025 20:53:55,0.506s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:53:55,14-06-2025 20:53:56,0.992s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:53:56,14-06-2025 20:53:56,0.675s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:53:56,14-06-2025 20:53:57,0.417s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:53:57,14-06-2025 20:53:57,0.714s,PASSED
+,,,,,,,
+Test Cases/report/add/report_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:53:58,14-06-2025 20:54:09,11.583s,PASSED
+"DATA BINDING - {""date"":""12/12/2024"",""nameReport"":""Báo cáo tháng 12"",""content"":""Cuối năm các hộ hoạt động bình thường""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:53:58,14-06-2025 20:54:02,3.842s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:54:02,14-06-2025 20:54:02,0.177s,PASSED
+"click(findTestObject(""report/add/btn_manageReport""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:02,14-06-2025 20:54:02,0.753s,PASSED
+"click(findTestObject(""report/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:02,14-06-2025 20:54:03,0.505s,PASSED
+"setText(findTestObject(""report/add/txtName""), nameReport)",Chrome 137.0.7151.70,,,14-06-2025 20:54:03,14-06-2025 20:54:04,1.011s,PASSED
+"setText(findTestObject(""report/add/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:54:04,14-06-2025 20:54:05,0.624s,PASSED
+"setText(findTestObject(""report/add/txtContent""), content)",Chrome 137.0.7151.70,,,14-06-2025 20:54:05,14-06-2025 20:54:05,0.777s,PASSED
+"click(findTestObject(""report/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:05,14-06-2025 20:54:06,0.514s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:06,14-06-2025 20:54:06,0.111s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Report added successfully!""",,14-06-2025 20:54:06,14-06-2025 20:54:06,0.050s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:54:06,14-06-2025 20:54:06,0.106s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:06,14-06-2025 20:54:08,2.143s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:54:08,14-06-2025 20:54:09,0.788s,PASSED
+,,,,,,,
+Test Cases/report/add/report_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:54:09,14-06-2025 20:54:20,10.878s,PASSED
+"DATA BINDING - {""date"":""31/01/2025"",""nameReport"":""Báo cáo tháng 1"",""content"":""Đầu năm chung cư siết chặt các quy định theo lễ tết""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:54:09,14-06-2025 20:54:13,4.050s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:54:13,14-06-2025 20:54:14,0.170s,PASSED
+"click(findTestObject(""report/add/btn_manageReport""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:14,14-06-2025 20:54:14,0.562s,PASSED
+"click(findTestObject(""report/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:14,14-06-2025 20:54:15,0.706s,PASSED
+"setText(findTestObject(""report/add/txtName""), nameReport)",Chrome 137.0.7151.70,,,14-06-2025 20:54:15,14-06-2025 20:54:16,0.902s,PASSED
+"setText(findTestObject(""report/add/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:54:16,14-06-2025 20:54:16,0.615s,PASSED
+"setText(findTestObject(""report/add/txtContent""), content)",Chrome 137.0.7151.70,,,14-06-2025 20:54:16,14-06-2025 20:54:17,0.852s,PASSED
+"click(findTestObject(""report/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:17,14-06-2025 20:54:18,0.388s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:18,14-06-2025 20:54:18,0.034s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Report added successfully!""",,14-06-2025 20:54:18,14-06-2025 20:54:18,0.015s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:54:18,14-06-2025 20:54:18,0.025s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:18,14-06-2025 20:54:20,2.017s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:54:20,14-06-2025 20:54:20,0.487s,PASSED
+,,,,,,,
+Test Cases/report/add/report_add_required,Chrome 137.0.7151.70,,,14-06-2025 20:54:20,14-06-2025 20:54:31,10.870s,PASSED
+"DATA BINDING - {""(Default) date"":"""",""(Default) resid..."":"""",""(Default) numbe..."":"""",""(Default) statu..."":"""",""(Default) numEl..."":"""",""(Default) toile..."":"""",""(Default) numWa..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:54:20,14-06-2025 20:54:24,3.304s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:54:24,14-06-2025 20:54:24,0.169s,PASSED
+"click(findTestObject(""report/add/btn_manageReport""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:24,14-06-2025 20:54:24,0.689s,PASSED
+"click(findTestObject(""report/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:24,14-06-2025 20:54:25,0.584s,PASSED
+"click(findTestObject(""report/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:54:25,14-06-2025 20:54:26,0.634s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:26,14-06-2025 20:54:28,2.010s,PASSED
+"verifyElementText(findTestObject(""report/add/requiredName""), ""Name is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:54:28,14-06-2025 20:54:28,0.283s,PASSED
+"verifyElementText(findTestObject(""report/add/requiredDate""), ""Date is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:54:28,14-06-2025 20:54:28,0.264s,PASSED
+"verifyElementText(findTestObject(""report/add/requiredContent""), ""Content is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:54:28,14-06-2025 20:54:29,0.280s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:54:29,14-06-2025 20:54:31,2.014s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:54:31,14-06-2025 20:54:31,0.488s,PASSED

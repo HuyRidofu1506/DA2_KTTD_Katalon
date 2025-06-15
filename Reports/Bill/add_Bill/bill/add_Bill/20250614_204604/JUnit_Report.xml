@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_Bill" time="50.353" tests="4" failures="0" errors="0">
+   <testsuite name="add_Bill" tests="4" failures="0" errors="0" time="50.353" skipped="0" timestamp="14-06-2025T20:46:11" hostname="DELL - host.docker.internal" id="Test Suites/bill/add_Bill">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204603\\bill\\add_Bill\\20250614_204604"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204603\\bill\\add_Bill\\20250614_204604\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204603\\bill\\add_Bill\\20250614_204604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="5ddd71326fcfeea8f90b6b52f42008f3"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="8.689" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:46:12 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:46:12 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:46:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:46:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:46:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:46:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:46:17 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:46:18 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:46:19 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:46:19 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:46:20 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:46:20 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bill/add/bill_add_success" time="14.957" classname="Test Cases/bill/add/bill_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"date":"6/10/2025","toiletMoney":"20000","numWater":"11","residentName":"Khang Hoài","numberOfApartme...":"101","numElec":"59","status":"Pay"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:46:21 - [TEST_CASE][PASSED] - Test Cases/bill/add/bill_add_success: Test Cases/bill/add/bill_add_success
+
+14-06-2025T20:46:21 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:46:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:46:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:46:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:46:25 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:46:25 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btn_manageBill")): Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:26 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnAdd")): Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:27 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectNumOfApart")): Object: 'Object Repository/bill/add/selectNumOfApart' is clicked on
+
+14-06-2025T20:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectNumOfApart' is clicked on
+
+14-06-2025T20:46:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectNumOfApart"), numberOfApartment, false): All options with value '101' are selected in object 'Object Repository/bill/add/selectNumOfApart' 
+
+14-06-2025T20:46:28 - [MESSAGE][PASSED] - All options with value '101' are selected in object 'Object Repository/bill/add/selectNumOfApart' 
+
+14-06-2025T20:46:28 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectResident")): Object: 'Object Repository/bill/add/selectResident' is clicked on
+
+14-06-2025T20:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectResident' is clicked on
+
+14-06-2025T20:46:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectResident"), residentName, false): All options with value 'Khang Hoài' are selected in object 'Object Repository/bill/add/selectResident' 
+
+14-06-2025T20:46:29 - [MESSAGE][PASSED] - All options with value 'Khang Hoài' are selected in object 'Object Repository/bill/add/selectResident' 
+
+14-06-2025T20:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtDate"), date): Text '6/10/2025' is set on object 'Object Repository/bill/add/txtDate'
+
+14-06-2025T20:46:30 - [MESSAGE][PASSED] - Text '6/10/2025' is set on object 'Object Repository/bill/add/txtDate'
+
+14-06-2025T20:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtNumElec"), numElec): Text '59' is set on object 'Object Repository/bill/add/txtNumElec'
+
+14-06-2025T20:46:30 - [MESSAGE][PASSED] - Text '59' is set on object 'Object Repository/bill/add/txtNumElec'
+
+14-06-2025T20:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtNumWater"), numWater): Text '11' is set on object 'Object Repository/bill/add/txtNumWater'
+
+14-06-2025T20:46:31 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/bill/add/txtNumWater'
+
+14-06-2025T20:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtToiletMoney"), toiletMoney): Text '20000' is set on object 'Object Repository/bill/add/txtToiletMoney'
+
+14-06-2025T20:46:31 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/bill/add/txtToiletMoney'
+
+14-06-2025T20:46:31 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectStatus")): Object: 'Object Repository/bill/add/selectStatus' is clicked on
+
+14-06-2025T20:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectStatus' is clicked on
+
+14-06-2025T20:46:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectStatus"), status, false): All options with value 'Pay' are selected in object 'Object Repository/bill/add/selectStatus' 
+
+14-06-2025T20:46:32 - [MESSAGE][PASSED] - All options with value 'Pay' are selected in object 'Object Repository/bill/add/selectStatus' 
+
+14-06-2025T20:46:32 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnSubmit")): Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:33 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:46:33 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:46:33 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:46:33 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:46:33 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:46:33 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:46:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:46:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:46:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:46:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bill/add/bill_add_success" time="12.937" classname="Test Cases/bill/add/bill_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"date":"15/9/2023","toiletMoney":"30000","numWater":"55","residentName":"Huy Cao","numberOfApartme...":"201","numElec":"99","status":"NotPaid"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:46:36 - [TEST_CASE][PASSED] - Test Cases/bill/add/bill_add_success: Test Cases/bill/add/bill_add_success
+
+14-06-2025T20:46:36 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:46:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:46:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:46:39 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:46:39 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btn_manageBill")): Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:39 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnAdd")): Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:40 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectNumOfApart")): Object: 'Object Repository/bill/add/selectNumOfApart' is clicked on
+
+14-06-2025T20:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectNumOfApart' is clicked on
+
+14-06-2025T20:46:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectNumOfApart"), numberOfApartment, false): All options with value '201' are selected in object 'Object Repository/bill/add/selectNumOfApart' 
+
+14-06-2025T20:46:41 - [MESSAGE][PASSED] - All options with value '201' are selected in object 'Object Repository/bill/add/selectNumOfApart' 
+
+14-06-2025T20:46:41 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectResident")): Object: 'Object Repository/bill/add/selectResident' is clicked on
+
+14-06-2025T20:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectResident' is clicked on
+
+14-06-2025T20:46:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectResident"), residentName, false): All options with value 'Huy Cao' are selected in object 'Object Repository/bill/add/selectResident' 
+
+14-06-2025T20:46:42 - [MESSAGE][PASSED] - All options with value 'Huy Cao' are selected in object 'Object Repository/bill/add/selectResident' 
+
+14-06-2025T20:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtDate"), date): Text '15/9/2023' is set on object 'Object Repository/bill/add/txtDate'
+
+14-06-2025T20:46:43 - [MESSAGE][PASSED] - Text '15/9/2023' is set on object 'Object Repository/bill/add/txtDate'
+
+14-06-2025T20:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtNumElec"), numElec): Text '99' is set on object 'Object Repository/bill/add/txtNumElec'
+
+14-06-2025T20:46:43 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/bill/add/txtNumElec'
+
+14-06-2025T20:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtNumWater"), numWater): Text '55' is set on object 'Object Repository/bill/add/txtNumWater'
+
+14-06-2025T20:46:44 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/bill/add/txtNumWater'
+
+14-06-2025T20:46:44 - [TEST_STEP][PASSED] - setText(findTestObject("bill/add/txtToiletMoney"), toiletMoney): Text '30000' is set on object 'Object Repository/bill/add/txtToiletMoney'
+
+14-06-2025T20:46:44 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/bill/add/txtToiletMoney'
+
+14-06-2025T20:46:44 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/selectStatus")): Object: 'Object Repository/bill/add/selectStatus' is clicked on
+
+14-06-2025T20:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/selectStatus' is clicked on
+
+14-06-2025T20:46:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("bill/add/selectStatus"), status, false): All options with value 'NotPaid' are selected in object 'Object Repository/bill/add/selectStatus' 
+
+14-06-2025T20:46:46 - [MESSAGE][PASSED] - All options with value 'NotPaid' are selected in object 'Object Repository/bill/add/selectStatus' 
+
+14-06-2025T20:46:46 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnSubmit")): Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:46 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:46:46 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:46:46 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:46:46 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:46:46 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:46:46 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:46:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:46:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:46:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:46:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/bill/add/bill_add_required" time="12.512" classname="Test Cases/bill/add/bill_add_required" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) date":"","(Default) resid...":"","(Default) numbe...":"","(Default) statu...":"","(Default) numEl...":"","(Default) toile...":"","(Default) numWa...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:46:49 - [TEST_CASE][PASSED] - Test Cases/bill/add/bill_add_required: Test Cases/bill/add/bill_add_required
+
+14-06-2025T20:46:49 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:46:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:46:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:46:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:46:52 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:46:52 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btn_manageBill")): Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btn_manageBill' is clicked on
+
+14-06-2025T20:46:53 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnAdd")): Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnAdd' is clicked on
+
+14-06-2025T20:46:53 - [TEST_STEP][PASSED] - click(findTestObject("bill/add/btnSubmit")): Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/bill/add/btnSubmit' is clicked on
+
+14-06-2025T20:46:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:46:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:46:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredNumOfApart"), "Apartment number is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredNumOfApart' are matched.
+
+14-06-2025T20:46:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredNumOfApart' are matched.
+
+14-06-2025T20:46:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredResident"), "Resident name is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredResident' are matched.
+
+14-06-2025T20:46:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredResident' are matched.
+
+14-06-2025T20:46:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredDate"), "Date is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredDate' are matched.
+
+14-06-2025T20:46:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredDate' are matched.
+
+14-06-2025T20:46:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredNumElec"), "Number electric is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredNumElec' are matched.
+
+14-06-2025T20:46:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredNumElec' are matched.
+
+14-06-2025T20:46:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredNumWater"), "Number water is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredNumWater' are matched.
+
+14-06-2025T20:46:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredNumWater' are matched.
+
+14-06-2025T20:46:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredToiletMoney"), "Toilet money is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredToiletMoney' are matched.
+
+14-06-2025T20:46:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredToiletMoney' are matched.
+
+14-06-2025T20:46:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("bill/add/requiredStatus"), "Status is required."): Actual text and expected text of test object 'Object Repository/bill/add/requiredStatus' are matched.
+
+14-06-2025T20:46:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/bill/add/requiredStatus' are matched.
+
+14-06-2025T20:46:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:47:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:47:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:47:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:46:11 - [TEST_SUITE][PASSED] - add_Bill: Test Cases/bill/add/bill_add_required]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

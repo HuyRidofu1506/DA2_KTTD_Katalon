@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_Resident" time="91.416" tests="9" failures="0" errors="0">
+   <testsuite name="add_Resident" tests="9" failures="0" errors="0" time="91.416" skipped="0" timestamp="14-06-2025T20:01:53" hostname="DELL - host.docker.internal" id="Test Suites/resident/add_Resident">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_200145\\resident\\add_Resident\\20250614_200145"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_200145\\resident\\add_Resident\\20250614_200145\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_200145\\resident\\add_Resident\\20250614_200145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="8ce8043ab8195b9eec5fc9570ca14bd7"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="8.273" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:01:54 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:01:54 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:01:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:01:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:01:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:01:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:01:59 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:02:00 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:02:01 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:02:01 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:02:01 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:02:02 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_success" time="11.244" classname="Test Cases/resident/add/resident_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0147258963","dob":"15/06/2003","hoten":"Huy Cao","cccd":"1472583691"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:02 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_success: Test Cases/resident/add/resident_add_success
+
+14-06-2025T20:02:02 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:06 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:06 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:07 - [MESSAGE][PASSED] - Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:07 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:09 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:09 - [MESSAGE][PASSED] - Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '1472583691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:10 - [MESSAGE][PASSED] - Text '1472583691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:10 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:11 - [MESSAGE][PASSED] - Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:11 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:11 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:11 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:11 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:11 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:11 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:02:11 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:02:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_success" time="11.232" classname="Test Cases/resident/add/resident_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"female","phone":"0321456987","dob":"01/01/1989","hoten":"Mai Kuraki","cccd":"1239874506"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:13 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_success: Test Cases/resident/add/resident_add_success
+
+14-06-2025T20:02:13 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:17 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:17 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:18 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Mai Kuraki' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:19 - [MESSAGE][PASSED] - Text 'Mai Kuraki' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:19 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'female' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:20 - [MESSAGE][PASSED] - All options with value 'female' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '01/01/1989' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:21 - [MESSAGE][PASSED] - Text '01/01/1989' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '1239874506' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:21 - [MESSAGE][PASSED] - Text '1239874506' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0321456987' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:22 - [MESSAGE][PASSED] - Text '0321456987' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:22 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:22 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:23 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:23 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:23 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:23 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:02:23 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:02:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_success" time="10.521" classname="Test Cases/resident/add/resident_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0123698547","dob":"31/12/1999","hoten":"Khang Hoài","cccd":"5621362987"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:25 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_success: Test Cases/resident/add/resident_add_success
+
+14-06-2025T20:02:25 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:28 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:28 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:29 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Khang Hoài' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:30 - [MESSAGE][PASSED] - Text 'Khang Hoài' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:30 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:31 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:31 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '31/12/1999' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:32 - [MESSAGE][PASSED] - Text '31/12/1999' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:32 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '5621362987' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:32 - [MESSAGE][PASSED] - Text '5621362987' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:32 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0123698547' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:33 - [MESSAGE][PASSED] - Text '0123698547' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:33 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:33 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:33 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:33 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:33 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:33 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:02:33 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:02:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:35 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_success" time="10.632" classname="Test Cases/resident/add/resident_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0147258963","dob":"15/06/2003","hoten":"Huy Cao","cccd":"1472525691"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:35 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_success: Test Cases/resident/add/resident_add_success
+
+14-06-2025T20:02:35 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:40 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:40 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:41 - [MESSAGE][PASSED] - Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:02:41 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:02:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:42 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:42 - [MESSAGE][PASSED] - Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '1472525691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:43 - [MESSAGE][PASSED] - Text '1472525691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:43 - [MESSAGE][PASSED] - Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:02:43 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:44 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:44 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:44 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:02:44 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:02:44 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:02:44 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:02:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_required" time="9.806" classname="Test Cases/resident/add/resident_add_required" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) dob":"","(Default) hoten":"","(Default) gende...":"","(Default) cccd":"","(Default) phone":""}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:46 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_required: Test Cases/resident/add/resident_add_required
+
+14-06-2025T20:02:46 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:49 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:49 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:50 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:02:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:02:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("resident/addResident/requiredName"), "Name is required."): Actual text and expected text of test object 'Object Repository/resident/addResident/requiredName' are matched.
+
+14-06-2025T20:02:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/resident/addResident/requiredName' are matched.
+
+14-06-2025T20:02:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("resident/addResident/requiredGender"), "Gender is required."): Actual text and expected text of test object 'Object Repository/resident/addResident/requiredGender' are matched.
+
+14-06-2025T20:02:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/resident/addResident/requiredGender' are matched.
+
+14-06-2025T20:02:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("resident/addResident/requiredDOB"), "Date of Birth is required."): Actual text and expected text of test object 'Object Repository/resident/addResident/requiredDOB' are matched.
+
+14-06-2025T20:02:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/resident/addResident/requiredDOB' are matched.
+
+14-06-2025T20:02:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("resident/addResident/requiredCCCD"), "CCCD is required."): Actual text and expected text of test object 'Object Repository/resident/addResident/requiredCCCD' are matched.
+
+14-06-2025T20:02:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/resident/addResident/requiredCCCD' are matched.
+
+14-06-2025T20:02:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("resident/addResident/requiredPhone"), "Phone Number is required."): Actual text and expected text of test object 'Object Repository/resident/addResident/requiredPhone' are matched.
+
+14-06-2025T20:02:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/resident/addResident/requiredPhone' are matched.
+
+14-06-2025T20:02:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:02:56 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_fail" time="9.484" classname="Test Cases/resident/add/resident_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0147258963","dob":"15/06/2003","hoten":"Huy Cao","cccd":"1472583691"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:02:56 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_fail: Test Cases/resident/add/resident_add_fail
+
+14-06-2025T20:02:56 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:02:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:02:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:02:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:02:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:02:59 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:02:59 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:00 - [MESSAGE][PASSED] - Text 'Huy Cao' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:00 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:01 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:02 - [MESSAGE][PASSED] - Text '15/06/2003' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '1472583691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:02 - [MESSAGE][PASSED] - Text '1472583691' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:03 - [MESSAGE][PASSED] - Text '0147258963' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:03 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:03 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:03 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:03 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:03 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:03 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:03:03 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:03:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:03:05 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_fail" time="9.364" classname="Test Cases/resident/add/resident_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"female","phone":"0321456987","dob":"01/01/1989","hoten":"Mai Kuraki","cccd":"1239874506"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:03:05 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_fail: Test Cases/resident/add/resident_add_fail
+
+14-06-2025T20:03:05 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:03:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:03:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:03:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:03:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:03:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:03:08 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:03:08 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Mai Kuraki' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:10 - [MESSAGE][PASSED] - Text 'Mai Kuraki' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:10 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'female' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:10 - [MESSAGE][PASSED] - All options with value 'female' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '01/01/1989' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:11 - [MESSAGE][PASSED] - Text '01/01/1989' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '1239874506' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:12 - [MESSAGE][PASSED] - Text '1239874506' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0321456987' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:12 - [MESSAGE][PASSED] - Text '0321456987' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:12 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:12 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:12 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:12 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:12 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:12 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:03:13 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:03:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:03:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/resident/add/resident_add_fail" time="9.451" classname="Test Cases/resident/add/resident_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0123698547","dob":"31/12/1999","hoten":"Khang Hoài","cccd":"5621362987"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:03:15 - [TEST_CASE][PASSED] - Test Cases/resident/add/resident_add_fail: Test Cases/resident/add/resident_add_fail
+
+14-06-2025T20:03:15 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:03:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:03:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:03:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:03:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:03:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:03:18 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:03:18 - [TEST_STEP][PASSED] - click(findTestObject("resident/manageHome/btnAdd")): Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/manageHome/btnAdd' is clicked on
+
+14-06-2025T20:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtName"), hoten): Text 'Khang Hoài' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:19 - [MESSAGE][PASSED] - Text 'Khang Hoài' is set on object 'Object Repository/resident/addResident/txtName'
+
+14-06-2025T20:03:19 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/selectGender")): Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/selectGender' is clicked on
+
+14-06-2025T20:03:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:20 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/resident/addResident/selectGender' 
+
+14-06-2025T20:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtDOB"), dob): Text '31/12/1999' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:21 - [MESSAGE][PASSED] - Text '31/12/1999' is set on object 'Object Repository/resident/addResident/txtDOB'
+
+14-06-2025T20:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtCCCD"), cccd): Text '5621362987' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:21 - [MESSAGE][PASSED] - Text '5621362987' is set on object 'Object Repository/resident/addResident/txtCCCD'
+
+14-06-2025T20:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("resident/addResident/txtPhoneNumber"), phone): Text '0123698547' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:22 - [MESSAGE][PASSED] - Text '0123698547' is set on object 'Object Repository/resident/addResident/txtPhoneNumber'
+
+14-06-2025T20:03:22 - [TEST_STEP][PASSED] - click(findTestObject("resident/addResident/btnSubmit")): Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/resident/addResident/btnSubmit' is clicked on
+
+14-06-2025T20:03:22 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:22 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:22 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:03:22 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:03:22 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:03:22 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:03:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:03:24 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:01:53 - [TEST_SUITE][PASSED] - add_Resident: Test Cases/resident/add/resident_add_fail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

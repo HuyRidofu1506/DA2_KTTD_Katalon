@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtShowNumApart</name>
+   <tag></tag>
+   <elementGuidId>e9e3516e-0e0d-4bf8-afba-56901e37e6c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(4) > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[3]/following::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a3ae3210-b242-4325-8947-1b7df3cf5e4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>833</value>
+      <webElementGuid>19a6066b-898a-4375-97b9-961d17120f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-admin[1]/div[@class=&quot;pc-container&quot;]/div[@class=&quot;coded-wrapper&quot;]/div[@class=&quot;coded-content&quot;]/div[@class=&quot;coded-inner-content&quot;]/div[@class=&quot;main-body&quot;]/div[@class=&quot;page-wrapper&quot;]/app-manage-apartment[1]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[4]/td[1]</value>
+      <webElementGuid>47ca5f0f-a8a8-4497-9549-6c4ef2fbbc2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[3]/following::td[1]</value>
+      <webElementGuid>08ed937d-0b19-448f-93e8-4418662219ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[3]/following::td[1]</value>
+      <webElementGuid>1689ea25-08d7-4209-a61a-8ddbde154cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='inAvailable'])[3]/preceding::td[1]</value>
+      <webElementGuid>bfd52d2c-23d3-4c89-8562-5c765680f38a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phạm Trang'])[2]/preceding::td[2]</value>
+      <webElementGuid>4662dcfd-5863-45e1-bca8-a4a5f09c839f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='833']/parent::*</value>
+      <webElementGuid>89b65c18-4e2a-4a6f-95ae-cd04fd61deef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td</value>
+      <webElementGuid>d60d86c3-de2c-42b5-a5c4-19b9d98c746c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '833' or . = '833')]</value>
+      <webElementGuid>260f3132-d7f5-4be5-a078-75e635a9b380</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

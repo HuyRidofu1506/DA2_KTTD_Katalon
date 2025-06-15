@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 137.0.7151.70,,,14-06-2025 10:23:46,14-06-2025 10:24:25,38.480s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 10:23:47,14-06-2025 10:24:10,22.716s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 10:23:48,14-06-2025 10:24:07,19.196s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 10:24:07,14-06-2025 10:24:07,0.142s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 10:24:07,14-06-2025 10:24:08,1.049s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 10:24:08,14-06-2025 10:24:09,0.603s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 10:24:09,14-06-2025 10:24:09,0.381s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 10:24:09,14-06-2025 10:24:10,0.760s,PASSED
+,,,,,,,
+Test Cases/login/login_fail,Chrome 137.0.7151.70,,,14-06-2025 10:24:10,14-06-2025 10:24:17,7.512s,PASSED
+"DATA BINDING - {""(Default) passw..."":"""",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 10:24:10,14-06-2025 10:24:13,3.365s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 10:24:13,14-06-2025 10:24:14,0.088s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 10:24:14,14-06-2025 10:24:14,0.851s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 10:24:14,14-06-2025 10:24:15,0.582s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 10:24:15,14-06-2025 10:24:15,0.348s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert: ""Username or password invalid""",,14-06-2025 10:24:15,14-06-2025 10:24:15,0.080s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 10:24:15,14-06-2025 10:24:17,2.056s,PASSED
+,,,,,,,
+Test Cases/login/login_fail,Chrome 137.0.7151.70,,,14-06-2025 10:24:17,14-06-2025 10:24:24,6.932s,PASSED
+"DATA BINDING - {""(Default) usern..."":"""",""password"":""123123zzz""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 10:24:18,14-06-2025 10:24:20,2.970s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 10:24:20,14-06-2025 10:24:21,0.087s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 10:24:21,14-06-2025 10:24:21,0.761s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 10:24:21,14-06-2025 10:24:22,0.699s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 10:24:22,14-06-2025 10:24:22,0.352s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert: ""Username or password invalid""",,14-06-2025 10:24:22,14-06-2025 10:24:22,0.027s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 10:24:22,14-06-2025 10:24:24,2.015s,PASSED

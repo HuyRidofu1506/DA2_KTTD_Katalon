@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_Employee" time="91.412" tests="8" failures="0" errors="0">
+   <testsuite name="add_Employee" tests="8" failures="0" errors="0" time="91.412" skipped="0" timestamp="14-06-2025T20:39:00" hostname="DELL - host.docker.internal" id="Test Suites/employee/add_Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203854\\employee\\add_Employee\\20250614_203854"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203854\\employee\\add_Employee\\20250614_203854\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203854\\employee\\add_Employee\\20250614_203854\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="ce5b83439dc4261f70f2a604220a309a"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="6.96" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:01 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:39:01 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:39:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:39:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:05 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:39:06 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:39:06 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:39:06 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:39:07 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:39:07 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_success" time="12.931" classname="Test Cases/employee/add/employee_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"female","phone":"0159315748","dob":"15/06/1979","postion":"cleaner","hoten":"Nhân viên A","workTime":"8h - 16h","cccd":"2251190071"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:08 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_success: Test Cases/employee/add/employee_add_success
+
+14-06-2025T20:39:08 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:39:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:11 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:11 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:12 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên A' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:13 - [MESSAGE][PASSED] - Text 'Nhân viên A' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:13 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'female' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:14 - [MESSAGE][PASSED] - All options with value 'female' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '15/06/1979' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:15 - [MESSAGE][PASSED] - Text '15/06/1979' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:15 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '2251190071' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:16 - [MESSAGE][PASSED] - Text '2251190071' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0159315748' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:16 - [MESSAGE][PASSED] - Text '0159315748' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:16 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'cleaner' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:17 - [MESSAGE][PASSED] - All options with value 'cleaner' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '8h - 16h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:18 - [MESSAGE][PASSED] - Text '8h - 16h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:18 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:18 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:18 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:18 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:39:18 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:39:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:39:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:39:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:39:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_success" time="11.982" classname="Test Cases/employee/add/employee_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0369741258","dob":"1/1/1970","postion":"guard","hoten":"Nhân viên B","workTime":"19h - 7h","cccd":"3315581564"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:21 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_success: Test Cases/employee/add/employee_add_success
+
+14-06-2025T20:39:21 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:24 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:24 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:24 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:25 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên B' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:26 - [MESSAGE][PASSED] - Text 'Nhân viên B' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:26 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:27 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '1/1/1970' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:27 - [MESSAGE][PASSED] - Text '1/1/1970' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '3315581564' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:28 - [MESSAGE][PASSED] - Text '3315581564' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:28 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0369741258' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:29 - [MESSAGE][PASSED] - Text '0369741258' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:29 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:29 - [MESSAGE][PASSED] - All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '19h - 7h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:30 - [MESSAGE][PASSED] - Text '19h - 7h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:30 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:30 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:30 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:30 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:30 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:30 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:39:30 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:39:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:39:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:39:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_success" time="11.557" classname="Test Cases/employee/add/employee_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0258741369","dob":"31/12/1999","postion":"guard","hoten":"Nhân viên C","workTime":"7h - 19h","cccd":"4416691035"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:33 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_success: Test Cases/employee/add/employee_add_success
+
+14-06-2025T20:39:33 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:36 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:36 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:36 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:37 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên C' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:38 - [MESSAGE][PASSED] - Text 'Nhân viên C' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:39:38 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:39:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:38 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:39:38 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '31/12/1999' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:39 - [MESSAGE][PASSED] - Text '31/12/1999' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:39:39 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '4416691035' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:40 - [MESSAGE][PASSED] - Text '4416691035' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:39:40 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0258741369' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:40 - [MESSAGE][PASSED] - Text '0258741369' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:39:40 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:39:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:41 - [MESSAGE][PASSED] - All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:39:41 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '7h - 19h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:42 - [MESSAGE][PASSED] - Text '7h - 19h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:39:42 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:42 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:42 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:42 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:39:42 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:39:42 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:39:42 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:39:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:39:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:39:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:39:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_required" time="10.94" classname="Test Cases/employee/add/employee_add_required" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) dob":"","(Default) hoten":"","(Default) gende...":"","(Default) cccd":"","(Default) workT...":"","(Default) phone":"","(Default) posti...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:44 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_required: Test Cases/employee/add/employee_add_required
+
+14-06-2025T20:39:44 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:47 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:47 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:48 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:39:48 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:39:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:39:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredName"), "Name is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredName' are matched.
+
+14-06-2025T20:39:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredName' are matched.
+
+14-06-2025T20:39:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredGender"), "Gender is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredGender' are matched.
+
+14-06-2025T20:39:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredGender' are matched.
+
+14-06-2025T20:39:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredDOB"), "Date of Birth is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredDOB' are matched.
+
+14-06-2025T20:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredDOB' are matched.
+
+14-06-2025T20:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredCCCD"), "CCCD is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredCCCD' are matched.
+
+14-06-2025T20:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredCCCD' are matched.
+
+14-06-2025T20:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredPhone"), "Phone Number is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredPhone' are matched.
+
+14-06-2025T20:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredPhone' are matched.
+
+14-06-2025T20:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredPosition"), "Position is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredPosition' are matched.
+
+14-06-2025T20:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredPosition' are matched.
+
+14-06-2025T20:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("employee/addEmployee/requiredWorkingTIme"), "Working Time is required."): Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredWorkingTIme' are matched.
+
+14-06-2025T20:39:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/employee/addEmployee/requiredWorkingTIme' are matched.
+
+14-06-2025T20:39:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:39:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:39:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:39:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_fail" time="12.07" classname="Test Cases/employee/add/employee_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"female","phone":"0159315748","dob":"15/06/1979","postion":"cleaner","hoten":"Nhân viên A","workTime":"8h - 16h","cccd":"2251190071"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:39:55 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_fail: Test Cases/employee/add/employee_add_fail
+
+14-06-2025T20:39:55 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:39:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:39:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:39:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:39:59 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:39:59 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:39:59 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:00 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên A' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:00 - [MESSAGE][PASSED] - Text 'Nhân viên A' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:00 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'female' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:01 - [MESSAGE][PASSED] - All options with value 'female' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '15/06/1979' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:02 - [MESSAGE][PASSED] - Text '15/06/1979' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '2251190071' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:02 - [MESSAGE][PASSED] - Text '2251190071' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0159315748' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:03 - [MESSAGE][PASSED] - Text '0159315748' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:03 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'cleaner' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:04 - [MESSAGE][PASSED] - All options with value 'cleaner' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:04 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '8h - 16h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:04 - [MESSAGE][PASSED] - Text '8h - 16h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:04 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:05 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:05 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:05 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:05 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:05 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:40:05 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:40:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:40:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:40:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:40:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_fail" time="12.069" classname="Test Cases/employee/add/employee_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0369741258","dob":"1/1/1970","postion":"guard","hoten":"Nhân viên B","workTime":"19h - 7h","cccd":"3315581564"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:40:07 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_fail: Test Cases/employee/add/employee_add_fail
+
+14-06-2025T20:40:07 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:40:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:40:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:40:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:40:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:40:10 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:40:10 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:40:11 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên B' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:12 - [MESSAGE][PASSED] - Text 'Nhân viên B' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:12 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:13 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '1/1/1970' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:14 - [MESSAGE][PASSED] - Text '1/1/1970' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '3315581564' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:14 - [MESSAGE][PASSED] - Text '3315581564' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0369741258' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:15 - [MESSAGE][PASSED] - Text '0369741258' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:15 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:15 - [MESSAGE][PASSED] - All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '19h - 7h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:16 - [MESSAGE][PASSED] - Text '19h - 7h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:16 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:16 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:17 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:17 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:17 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:17 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:40:17 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:40:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:40:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:40:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:40:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/add/employee_add_fail" time="11.709" classname="Test Cases/employee/add/employee_add_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"gender":"male","phone":"0258741369","dob":"31/12/1999","postion":"guard","hoten":"Nhân viên C","workTime":"7h - 19h","cccd":"4416691035"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:40:19 - [TEST_CASE][PASSED] - Test Cases/employee/add/employee_add_fail: Test Cases/employee/add/employee_add_fail
+
+14-06-2025T20:40:19 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:40:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:40:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:40:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:40:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:40:22 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:40:22 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:40:23 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnAdd")): Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnAdd' is clicked on
+
+14-06-2025T20:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtName"), hoten): Text 'Nhân viên C' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:24 - [MESSAGE][PASSED] - Text 'Nhân viên C' is set on object 'Object Repository/employee/addEmployee/txtName'
+
+14-06-2025T20:40:24 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectGender")): Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectGender' is clicked on
+
+14-06-2025T20:40:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectGender"), gender, false): All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:25 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/employee/addEmployee/selectGender' 
+
+14-06-2025T20:40:25 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtDOB"), dob): Text '31/12/1999' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:26 - [MESSAGE][PASSED] - Text '31/12/1999' is set on object 'Object Repository/employee/addEmployee/txtDOB'
+
+14-06-2025T20:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtCCCD"), cccd): Text '4416691035' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:26 - [MESSAGE][PASSED] - Text '4416691035' is set on object 'Object Repository/employee/addEmployee/txtCCCD'
+
+14-06-2025T20:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtPhoneNumber"), phone): Text '0258741369' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:27 - [MESSAGE][PASSED] - Text '0258741369' is set on object 'Object Repository/employee/addEmployee/txtPhoneNumber'
+
+14-06-2025T20:40:27 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/selectPosition")): Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/selectPosition' is clicked on
+
+14-06-2025T20:40:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("employee/addEmployee/selectPosition"), postion, false): All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:28 - [MESSAGE][PASSED] - All options with value 'guard' are selected in object 'Object Repository/employee/addEmployee/selectPosition' 
+
+14-06-2025T20:40:28 - [TEST_STEP][PASSED] - setText(findTestObject("employee/addEmployee/txtWorkingTime"), workTime): Text '7h - 19h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:28 - [MESSAGE][PASSED] - Text '7h - 19h' is set on object 'Object Repository/employee/addEmployee/txtWorkingTime'
+
+14-06-2025T20:40:28 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btnSubmit")): Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btnSubmit' is clicked on
+
+14-06-2025T20:40:29 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:29 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:29 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:40:29 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:40:29 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:40:29 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:40:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:40:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:40:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:39:00 - [TEST_SUITE][PASSED] - add_Employee: Test Cases/employee/add/employee_add_fail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

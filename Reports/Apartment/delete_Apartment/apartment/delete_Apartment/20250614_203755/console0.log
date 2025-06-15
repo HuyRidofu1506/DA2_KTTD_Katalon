@@ -1,0 +1,74 @@
+2025-06-14 20:38:00.795 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/apartment/delete_Apartment
+2025-06-14 20:38:00.930 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cao Nguyễn Xuân Huy
+2025-06-14 20:38:00.932 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QLCC
+2025-06-14 20:38:00.934 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = DELL - host.docker.internal
+2025-06-14 20:38:00.935 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-14 20:38:00.936 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.44
+2025-06-14 20:38:00.937 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-14 20:38:01.724 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:38:01.724 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_success
+2025-06-14 20:38:01.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 20:38:01.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 20:38:01.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - expectedMsg = userHuy1
+2025-06-14 20:38:02.507 DEBUG testcase.login_success                   - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 20:38:02.884 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:38:02.940 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:38:02.943 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:38:03.132 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 189 ms
+2025-06-14 20:38:03.132 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:38:03.132 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:38:03.155 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:38:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:38:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:38:05.518 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 167cf91db50704f2cf336e834ef5f17f
+2025-06-14 20:38:05.520 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:38:05.521 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:38:05.522 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:38:05.535 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:38:06.165 DEBUG testcase.login_success                   - 2: maximizeWindow()
+2025-06-14 20:38:06.292 DEBUG testcase.login_success                   - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 20:38:07.381 DEBUG testcase.login_success                   - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 20:38:08.108 DEBUG testcase.login_success                   - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 20:38:08.583 DEBUG testcase.login_success                   - 6: verifyTextPresent(expectedMsg, false)
+2025-06-14 20:38:09.339 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_success
+2025-06-14 20:38:09.349 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:38:09.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/apartment/delete/apartment_delete
+2025-06-14 20:38:09.405 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) hoten = 
+2025-06-14 20:38:09.408 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) gender = 
+2025-06-14 20:38:09.409 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) dob = 
+2025-06-14 20:38:09.411 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) cccd = 
+2025-06-14 20:38:09.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) phone = 
+2025-06-14 20:38:09.414 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) postion = 
+2025-06-14 20:38:09.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) workTime = 
+2025-06-14 20:38:09.520 DEBUG testcase.apartment_delete                - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:38:09.528 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:38:10.197 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:38:10.199 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:38:10.199 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:38:10.329 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 130 ms
+2025-06-14 20:38:10.330 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:38:10.330 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:38:10.330 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:38:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:38:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:38:11.711 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4b22061f31b06d6be8c6da5492c85605
+2025-06-14 20:38:11.713 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:38:11.714 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:38:11.715 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:38:11.717 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:38:13.647 DEBUG testcase.apartment_delete                - 2: maximizeWindow()
+2025-06-14 20:38:13.782 DEBUG testcase.apartment_delete                - 3: click(findTestObject("apartment/add/btn_manageAparment"))
+2025-06-14 20:38:14.332 DEBUG testcase.apartment_delete                - 4: click(findTestObject("apartment/delete/btnDel"))
+2025-06-14 20:38:15.086 DEBUG testcase.apartment_delete                - 5: waitForAlert(2)
+2025-06-14 20:38:15.200 DEBUG testcase.apartment_delete                - 6: verifyAlertPresent(2)
+2025-06-14 20:38:15.262 DEBUG testcase.apartment_delete                - 7: acceptAlert()
+2025-06-14 20:38:15.315 DEBUG testcase.apartment_delete                - 8: delay(2)
+2025-06-14 20:38:17.433 DEBUG testcase.apartment_delete                - 9: closeBrowser()
+2025-06-14 20:38:18.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/apartment/delete/apartment_delete
+2025-06-14 20:38:18.074 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-14 20:38:18.075 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/apartment/delete_Apartment
+2025-06-14 20:38:18.075 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

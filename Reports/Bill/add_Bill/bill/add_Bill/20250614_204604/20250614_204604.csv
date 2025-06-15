@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+add_Bill,Chrome 137.0.7151.70,,,14-06-2025 20:46:11,14-06-2025 20:47:01,50.401s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:46:12,14-06-2025 20:46:20,8.689s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:46:12,14-06-2025 20:46:17,4.639s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:46:17,14-06-2025 20:46:17,0.167s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:46:17,14-06-2025 20:46:18,1.154s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:46:18,14-06-2025 20:46:19,0.822s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:19,14-06-2025 20:46:20,0.501s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:46:20,14-06-2025 20:46:20,0.779s,PASSED
+,,,,,,,
+Test Cases/bill/add/bill_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:46:21,14-06-2025 20:46:36,14.957s,PASSED
+"DATA BINDING - {""date"":""6/10/2025"",""toiletMoney"":""20000"",""numWater"":""11"",""residentName"":""Khang Hoài"",""numberOfApartme..."":""101"",""numElec"":""59"",""status"":""Pay""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:46:21,14-06-2025 20:46:25,4.427s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:46:25,14-06-2025 20:46:25,0.156s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:25,14-06-2025 20:46:26,0.520s,PASSED
+"click(findTestObject(""bill/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:26,14-06-2025 20:46:27,0.695s,PASSED
+"click(findTestObject(""bill/add/selectNumOfApart""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:27,14-06-2025 20:46:27,0.766s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectNumOfApart""), numberOfApartment, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:27,14-06-2025 20:46:28,0.617s,PASSED
+"click(findTestObject(""bill/add/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:28,14-06-2025 20:46:28,0.349s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:28,14-06-2025 20:46:29,0.571s,PASSED
+"setText(findTestObject(""bill/add/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:46:29,14-06-2025 20:46:30,0.648s,PASSED
+"setText(findTestObject(""bill/add/txtNumElec""), numElec)",Chrome 137.0.7151.70,,,14-06-2025 20:46:30,14-06-2025 20:46:30,0.625s,PASSED
+"setText(findTestObject(""bill/add/txtNumWater""), numWater)",Chrome 137.0.7151.70,,,14-06-2025 20:46:30,14-06-2025 20:46:31,0.612s,PASSED
+"setText(findTestObject(""bill/add/txtToiletMoney""), toiletMoney)",Chrome 137.0.7151.70,,,14-06-2025 20:46:31,14-06-2025 20:46:31,0.588s,PASSED
+"click(findTestObject(""bill/add/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:31,14-06-2025 20:46:32,0.370s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:32,14-06-2025 20:46:32,0.636s,PASSED
+"click(findTestObject(""bill/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:32,14-06-2025 20:46:33,0.342s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:33,14-06-2025 20:46:33,0.058s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Bill added successfully!""",,14-06-2025 20:46:33,14-06-2025 20:46:33,0.032s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:46:33,14-06-2025 20:46:33,0.039s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:33,14-06-2025 20:46:35,2.077s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:46:35,14-06-2025 20:46:36,0.509s,PASSED
+,,,,,,,
+Test Cases/bill/add/bill_add_success,Chrome 137.0.7151.70,,,14-06-2025 20:46:36,14-06-2025 20:46:49,12.937s,PASSED
+"DATA BINDING - {""date"":""15/9/2023"",""toiletMoney"":""30000"",""numWater"":""55"",""residentName"":""Huy Cao"",""numberOfApartme..."":""201"",""numElec"":""99"",""status"":""NotPaid""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:46:36,14-06-2025 20:46:39,2.992s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:46:39,14-06-2025 20:46:39,0.125s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:39,14-06-2025 20:46:39,0.447s,PASSED
+"click(findTestObject(""bill/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:39,14-06-2025 20:46:40,0.568s,PASSED
+"click(findTestObject(""bill/add/selectNumOfApart""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:40,14-06-2025 20:46:40,0.674s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectNumOfApart""), numberOfApartment, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:40,14-06-2025 20:46:41,0.592s,PASSED
+"click(findTestObject(""bill/add/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:41,14-06-2025 20:46:41,0.378s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:41,14-06-2025 20:46:42,0.563s,PASSED
+"setText(findTestObject(""bill/add/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:46:42,14-06-2025 20:46:43,0.592s,PASSED
+"setText(findTestObject(""bill/add/txtNumElec""), numElec)",Chrome 137.0.7151.70,,,14-06-2025 20:46:43,14-06-2025 20:46:43,0.592s,PASSED
+"setText(findTestObject(""bill/add/txtNumWater""), numWater)",Chrome 137.0.7151.70,,,14-06-2025 20:46:43,14-06-2025 20:46:44,0.556s,PASSED
+"setText(findTestObject(""bill/add/txtToiletMoney""), toiletMoney)",Chrome 137.0.7151.70,,,14-06-2025 20:46:44,14-06-2025 20:46:44,0.622s,PASSED
+"click(findTestObject(""bill/add/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:44,14-06-2025 20:46:45,0.655s,PASSED
+"selectOptionByValue(findTestObject(""bill/add/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:46:45,14-06-2025 20:46:46,0.590s,PASSED
+"click(findTestObject(""bill/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:46,14-06-2025 20:46:46,0.333s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:46,14-06-2025 20:46:46,0.026s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Bill added successfully!""",,14-06-2025 20:46:46,14-06-2025 20:46:46,0.012s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:46:46,14-06-2025 20:46:46,0.020s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:46,14-06-2025 20:46:48,2.012s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:46:48,14-06-2025 20:46:49,0.552s,PASSED
+,,,,,,,
+Test Cases/bill/add/bill_add_required,Chrome 137.0.7151.70,,,14-06-2025 20:46:49,14-06-2025 20:47:01,12.512s,PASSED
+"DATA BINDING - {""(Default) date"":"""",""(Default) resid..."":"""",""(Default) numbe..."":"""",""(Default) statu..."":"""",""(Default) numEl..."":"""",""(Default) toile..."":"""",""(Default) numWa..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:46:49,14-06-2025 20:46:52,3.431s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:46:52,14-06-2025 20:46:52,0.207s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:52,14-06-2025 20:46:53,0.429s,PASSED
+"click(findTestObject(""bill/add/btnAdd""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:53,14-06-2025 20:46:53,0.704s,PASSED
+"click(findTestObject(""bill/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:46:53,14-06-2025 20:46:54,0.788s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:54,14-06-2025 20:46:56,2.017s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredNumOfApart""), ""Apartment number is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:56,14-06-2025 20:46:57,0.311s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredResident""), ""Resident name is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:57,14-06-2025 20:46:57,0.307s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredDate""), ""Date is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:57,14-06-2025 20:46:57,0.365s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredNumElec""), ""Number electric is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:57,14-06-2025 20:46:58,0.306s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredNumWater""), ""Number water is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:58,14-06-2025 20:46:58,0.273s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredToiletMoney""), ""Toilet money is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:58,14-06-2025 20:46:58,0.263s,PASSED
+"verifyElementText(findTestObject(""bill/add/requiredStatus""), ""Status is required."")",Chrome 137.0.7151.70,,,14-06-2025 20:46:58,14-06-2025 20:46:58,0.266s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:46:58,14-06-2025 20:47:00,2.038s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:47:00,14-06-2025 20:47:01,0.678s,PASSED

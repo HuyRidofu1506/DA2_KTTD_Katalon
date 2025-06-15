@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+detail_delete_Bill,Chrome 137.0.7151.70,,,14-06-2025 20:51:31,14-06-2025 20:51:59,27.082s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:51:32,14-06-2025 20:51:40,7.961s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:51:33,14-06-2025 20:51:37,4.189s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:51:37,14-06-2025 20:51:38,0.293s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:51:38,14-06-2025 20:51:39,1.000s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:51:39,14-06-2025 20:51:39,0.644s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:51:39,14-06-2025 20:51:40,0.383s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:51:40,14-06-2025 20:51:40,0.696s,PASSED
+,,,,,,,
+Test Cases/bill/detail/bill_detail,Chrome 137.0.7151.70,,,14-06-2025 20:51:40,14-06-2025 20:51:49,8.241s,PASSED
+"DATA BINDING - {""(Default) dob"":"""",""(Default) hoten"":"""",""(Default) gende..."":"""",""(Default) cccd"":"""",""(Default) workT..."":"""",""(Default) phone"":"""",""(Default) posti..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:51:41,14-06-2025 20:51:45,4.181s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:51:45,14-06-2025 20:51:45,0.118s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:51:45,14-06-2025 20:51:45,0.612s,PASSED
+"click(findTestObject(""bill/detail_Delete/btnDetail""))",Chrome 137.0.7151.70,,,14-06-2025 20:51:45,14-06-2025 20:51:46,0.537s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:51:46,14-06-2025 20:51:48,2.125s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:51:48,14-06-2025 20:51:49,0.558s,PASSED
+,,,,,,,
+Test Cases/bill/delete/bill_delete,Chrome 137.0.7151.70,,,14-06-2025 20:51:49,14-06-2025 20:51:58,9.783s,PASSED
+"DATA BINDING - {""(Default) dob"":"""",""(Default) hoten"":"""",""(Default) gende..."":"""",""(Default) cccd"":"""",""(Default) workT..."":"""",""(Default) phone"":"""",""(Default) posti..."":""""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:51:49,14-06-2025 20:51:53,4.321s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:51:53,14-06-2025 20:51:54,1.258s,PASSED
+"click(findTestObject(""bill/add/btn_manageBill""))",Chrome 137.0.7151.70,,,14-06-2025 20:51:54,14-06-2025 20:51:55,0.559s,PASSED
+"click(findTestObject(""bill/detail_Delete/btnDel""))",Chrome 137.0.7151.70,,,14-06-2025 20:51:55,14-06-2025 20:51:56,0.611s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:51:56,14-06-2025 20:51:56,0.054s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert: ""Are you sure you want to delete this bill?""",,14-06-2025 20:51:56,14-06-2025 20:51:56,0.047s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:51:56,14-06-2025 20:51:56,0.047s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:51:56,14-06-2025 20:51:58,2.022s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:51:58,14-06-2025 20:51:58,0.773s,PASSED

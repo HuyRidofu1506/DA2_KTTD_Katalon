@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edit_Resident,Chrome 137.0.7151.70,,,14-06-2025 20:21:36,14-06-2025 20:22:44,1m - 8.029s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:21:37,14-06-2025 20:21:47,9.618s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:21:38,14-06-2025 20:21:44,5.825s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:21:44,14-06-2025 20:21:44,0.194s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:21:44,14-06-2025 20:21:45,0.940s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:21:45,14-06-2025 20:21:46,0.641s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:21:46,14-06-2025 20:21:46,0.380s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:21:46,14-06-2025 20:21:47,0.706s,PASSED
+,,,,,,,
+Test Cases/resident/edit/resident_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:21:47,14-06-2025 20:22:00,12.811s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0147258915"",""dob"":""15/06/2003"",""hoten"":""Huy Cao"",""cccd"":""1472583614""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:21:47,14-06-2025 20:21:52,4.499s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:21:52,14-06-2025 20:21:52,0.124s,PASSED
+"click(findTestObject(""resident/editResident/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:21:52,14-06-2025 20:21:52,0.448s,PASSED
+"setText(findTestObject(""resident/editResident/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:21:52,14-06-2025 20:21:53,1.015s,PASSED
+"click(findTestObject(""resident/editResident/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:21:53,14-06-2025 20:21:54,0.584s,PASSED
+"selectOptionByValue(findTestObject(""resident/editResident/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:21:54,14-06-2025 20:21:55,0.688s,PASSED
+"setText(findTestObject(""resident/editResident/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:21:55,14-06-2025 20:21:55,0.686s,PASSED
+"setText(findTestObject(""resident/editResident/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:21:55,14-06-2025 20:21:56,0.716s,PASSED
+"setText(findTestObject(""resident/editResident/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:21:56,14-06-2025 20:21:57,0.669s,PASSED
+"click(findTestObject(""resident/editResident/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:21:57,14-06-2025 20:21:57,0.381s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:21:57,14-06-2025 20:21:57,0.049s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Resident updated successfully!""",,14-06-2025 20:21:57,14-06-2025 20:21:57,0.030s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:21:57,14-06-2025 20:21:57,0.037s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:21:57,14-06-2025 20:21:59,2.079s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:21:59,14-06-2025 20:22:00,0.486s,PASSED
+,,,,,,,
+Test Cases/resident/edit/resident_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:22:00,14-06-2025 20:22:11,11.450s,PASSED
+"DATA BINDING - {""gender"":""female"",""phone"":""0321456960"",""dob"":""19/11/1989"",""hoten"":""Trăm Nguyễn"",""cccd"":""1239874578""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:22:00,14-06-2025 20:22:03,3.091s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:22:03,14-06-2025 20:22:03,0.136s,PASSED
+"click(findTestObject(""resident/editResident/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:03,14-06-2025 20:22:04,0.399s,PASSED
+"setText(findTestObject(""resident/editResident/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:22:04,14-06-2025 20:22:05,1.009s,PASSED
+"click(findTestObject(""resident/editResident/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:05,14-06-2025 20:22:05,0.392s,PASSED
+"selectOptionByValue(findTestObject(""resident/editResident/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:22:05,14-06-2025 20:22:06,0.578s,PASSED
+"setText(findTestObject(""resident/editResident/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:22:06,14-06-2025 20:22:06,0.562s,PASSED
+"setText(findTestObject(""resident/editResident/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:22:06,14-06-2025 20:22:07,0.618s,PASSED
+"setText(findTestObject(""resident/editResident/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:22:07,14-06-2025 20:22:08,0.800s,PASSED
+"click(findTestObject(""resident/editResident/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:08,14-06-2025 20:22:08,0.771s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:08,14-06-2025 20:22:09,0.558s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Resident updated successfully!""",,14-06-2025 20:22:09,14-06-2025 20:22:09,0.006s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:22:09,14-06-2025 20:22:09,0.017s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:09,14-06-2025 20:22:11,2.010s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:22:11,14-06-2025 20:22:11,0.470s,PASSED
+,,,,,,,
+Test Cases/resident/edit/resident_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:22:11,14-06-2025 20:22:22,10.984s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0123698594"",""dob"":""20/12/1999"",""hoten"":""Jackon"",""cccd"":""5621362915""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:22:12,14-06-2025 20:22:15,3.333s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:22:15,14-06-2025 20:22:15,0.103s,PASSED
+"click(findTestObject(""resident/editResident/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:15,14-06-2025 20:22:15,0.409s,PASSED
+"setText(findTestObject(""resident/editResident/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:22:15,14-06-2025 20:22:16,0.941s,PASSED
+"click(findTestObject(""resident/editResident/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:16,14-06-2025 20:22:17,0.355s,PASSED
+"selectOptionByValue(findTestObject(""resident/editResident/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:22:17,14-06-2025 20:22:17,0.574s,PASSED
+"setText(findTestObject(""resident/editResident/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:22:17,14-06-2025 20:22:18,0.575s,PASSED
+"setText(findTestObject(""resident/editResident/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:22:18,14-06-2025 20:22:18,0.600s,PASSED
+"setText(findTestObject(""resident/editResident/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:22:18,14-06-2025 20:22:19,0.646s,PASSED
+"click(findTestObject(""resident/editResident/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:19,14-06-2025 20:22:19,0.330s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:19,14-06-2025 20:22:20,0.542s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Resident updated successfully!""",,14-06-2025 20:22:20,14-06-2025 20:22:20,0.011s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:22:20,14-06-2025 20:22:20,0.016s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:20,14-06-2025 20:22:22,2.018s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:22:22,14-06-2025 20:22:22,0.499s,PASSED
+,,,,,,,
+Test Cases/resident/edit/resident_edit_fail,Chrome 137.0.7151.70,,,14-06-2025 20:22:22,14-06-2025 20:22:34,11.061s,PASSED
+"DATA BINDING - {""gender"":""male"",""phone"":""0147258963"",""dob"":""15/06/2003"",""hoten"":""Huy Cao"",""cccd"":""1239874578""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:22:23,14-06-2025 20:22:26,3.224s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:22:26,14-06-2025 20:22:26,0.101s,PASSED
+"click(findTestObject(""resident/editResident/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:26,14-06-2025 20:22:26,0.422s,PASSED
+"setText(findTestObject(""resident/editResident/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:22:26,14-06-2025 20:22:27,0.916s,PASSED
+"click(findTestObject(""resident/editResident/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:27,14-06-2025 20:22:28,0.405s,PASSED
+"selectOptionByValue(findTestObject(""resident/editResident/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:22:28,14-06-2025 20:22:28,0.580s,PASSED
+"setText(findTestObject(""resident/editResident/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:22:28,14-06-2025 20:22:29,0.607s,PASSED
+"setText(findTestObject(""resident/editResident/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:22:29,14-06-2025 20:22:30,0.645s,PASSED
+"setText(findTestObject(""resident/editResident/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:22:30,14-06-2025 20:22:30,0.589s,PASSED
+"click(findTestObject(""resident/editResident/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:30,14-06-2025 20:22:31,0.364s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:31,14-06-2025 20:22:31,0.534s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add fail: ""Error updating resident. Please try again.""",,14-06-2025 20:22:31,14-06-2025 20:22:31,0.009s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:22:31,14-06-2025 20:22:31,0.016s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:31,14-06-2025 20:22:33,2.019s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:22:33,14-06-2025 20:22:34,0.451s,PASSED
+,,,,,,,
+Test Cases/resident/edit/resident_edit_fail,Chrome 137.0.7151.70,,,14-06-2025 20:22:34,14-06-2025 20:22:44,10.716s,PASSED
+"DATA BINDING - {""gender"":""female"",""phone"":""0321456987"",""dob"":""19/01/1989"",""hoten"":""Mai Kuraki"",""cccd"":""5621362915""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:22:34,14-06-2025 20:22:37,3.112s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:22:37,14-06-2025 20:22:37,0.088s,PASSED
+"click(findTestObject(""resident/editResident/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:37,14-06-2025 20:22:37,0.475s,PASSED
+"setText(findTestObject(""resident/editResident/txtName""), hoten)",Chrome 137.0.7151.70,,,14-06-2025 20:22:37,14-06-2025 20:22:38,0.966s,PASSED
+"click(findTestObject(""resident/editResident/selectGender""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:38,14-06-2025 20:22:39,0.343s,PASSED
+"selectOptionByValue(findTestObject(""resident/editResident/selectGender""), gender, false)",Chrome 137.0.7151.70,,,14-06-2025 20:22:39,14-06-2025 20:22:39,0.560s,PASSED
+"setText(findTestObject(""resident/editResident/txtDOB""), dob)",Chrome 137.0.7151.70,,,14-06-2025 20:22:39,14-06-2025 20:22:40,0.606s,PASSED
+"setText(findTestObject(""resident/editResident/txtCCCD""), cccd)",Chrome 137.0.7151.70,,,14-06-2025 20:22:40,14-06-2025 20:22:40,0.586s,PASSED
+"setText(findTestObject(""resident/editResident/txtPhoneNumber""), phone)",Chrome 137.0.7151.70,,,14-06-2025 20:22:40,14-06-2025 20:22:41,0.594s,PASSED
+"click(findTestObject(""resident/editResident/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:22:41,14-06-2025 20:22:41,0.303s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:41,14-06-2025 20:22:42,0.528s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add fail: ""Error updating resident. Please try again.""",,14-06-2025 20:22:42,14-06-2025 20:22:42,0.008s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:22:42,14-06-2025 20:22:42,0.013s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:22:42,14-06-2025 20:22:44,2.010s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:22:44,14-06-2025 20:22:44,0.500s,PASSED

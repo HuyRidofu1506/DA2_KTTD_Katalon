@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+delete_Resident,Chrome 137.0.7151.70,,,14-06-2025 20:24:15,14-06-2025 20:24:30,14.594s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:24:16,14-06-2025 20:24:23,6.628s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:24:17,14-06-2025 20:24:20,3.464s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:24:20,14-06-2025 20:24:20,0.104s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:24:20,14-06-2025 20:24:21,0.879s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:24:21,14-06-2025 20:24:22,0.573s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:24:22,14-06-2025 20:24:22,0.327s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:24:22,14-06-2025 20:24:23,0.656s,PASSED
+,,,,,,,
+Test Cases/resident/delete/resident_delete,Chrome 137.0.7151.70,,,14-06-2025 20:24:23,14-06-2025 20:24:30,7.062s,PASSED
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:24:23,14-06-2025 20:24:27,3.791s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:24:27,14-06-2025 20:24:27,0.094s,PASSED
+"click(findTestObject(""resident/deleteResident/btnDel""))",Chrome 137.0.7151.70,,,14-06-2025 20:24:27,14-06-2025 20:24:27,0.430s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:24:27,14-06-2025 20:24:27,0.068s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert add success: ""Are you sure you want to delete this resident?""",,14-06-2025 20:24:27,14-06-2025 20:24:27,0.034s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:24:27,14-06-2025 20:24:27,0.035s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:24:27,14-06-2025 20:24:29,2.077s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:24:29,14-06-2025 20:24:30,0.437s,PASSED

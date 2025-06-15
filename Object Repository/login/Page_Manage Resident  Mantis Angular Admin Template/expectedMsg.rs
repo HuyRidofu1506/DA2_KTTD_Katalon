@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>expectedMsg</name>
+   <tag></tag>
+   <elementGuidId>0f1720e4-d596-47fc-b58a-117d7cbda34c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Report'])[1]/following::a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-toggle.pc-head-link.arrow-none.me-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9f70b7c1-3113-4402-ac8e-5ff2a30fb188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle pc-head-link arrow-none me-0</value>
+      <webElementGuid>69b114f8-08a8-4565-abf8-ad9a86c1ac2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>18e04a3a-fcc5-4e80-b442-8c7944b5072b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>userHuy1</value>
+      <webElementGuid>64262de8-5ab6-46b0-9595-465fa9e1d49d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-admin[1]/app-nav-bar[1]/header[@class=&quot;pc-header&quot;]/div[@class=&quot;header-wrapper&quot;]/div[2]/app-nav-right[1]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;dropdown pc-h-item header-user-profile&quot;]/a[@class=&quot;dropdown-toggle pc-head-link arrow-none me-0&quot;]</value>
+      <webElementGuid>cdaa0863-ba3c-4b96-8e7c-43a2b5028c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Report'])[1]/following::a[3]</value>
+      <webElementGuid>e738d4f1-9900-4015-b5b5-bd73e89d2ff6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Bill'])[1]/following::a[4]</value>
+      <webElementGuid>640462b3-e7e1-4fce-af80-101025de5f71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[1]</value>
+      <webElementGuid>166e0381-cea8-41d5-871d-22e829669199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-nav-right/ul/li/a</value>
+      <webElementGuid>9a72ef4c-ba9a-4600-ba37-3e9622d15ccb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'userHuy1' or . = 'userHuy1')]</value>
+      <webElementGuid>249f0d8b-4797-45e1-922f-d5b00688324b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

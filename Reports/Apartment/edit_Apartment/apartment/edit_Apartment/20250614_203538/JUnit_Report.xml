@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="edit_Apartment" time="49.678" tests="5" failures="0" errors="0">
+   <testsuite name="edit_Apartment" tests="5" failures="0" errors="0" time="49.678" skipped="0" timestamp="14-06-2025T20:35:45" hostname="DELL - host.docker.internal" id="Test Suites/apartment/edit_Apartment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203538\\apartment\\edit_Apartment\\20250614_203538"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203538\\apartment\\edit_Apartment\\20250614_203538\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_203538\\apartment\\edit_Apartment\\20250614_203538\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="33518c08cbb68bd4269948373479f853"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="7.285" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:35:46 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:35:46 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:35:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:35:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:35:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:35:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:35:50 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:35:51 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:35:51 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:35:52 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:35:52 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:35:52 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:35:53 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/apartment/edit/apartment_edit_success" time="10.656" classname="Test Cases/apartment/edit/apartment_edit_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"residentName":"Mai Kuraki","numberOfApartme...":"201","status":"inAvailable"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:35:53 - [TEST_CASE][PASSED] - Test Cases/apartment/edit/apartment_edit_success: Test Cases/apartment/edit/apartment_edit_success
+
+14-06-2025T20:35:53 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:35:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:35:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:35:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:35:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:35:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:35:57 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:35:57 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btn_manageAparment")): Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:35:57 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/btnEdit")): Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("apartment/edit/txtNumberOfApart"), numberOfApartment): Text '201' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:35:59 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:35:59 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectStatus")): Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:35:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectStatus"), status, false): All options with value 'inAvailable' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:00 - [MESSAGE][PASSED] - All options with value 'inAvailable' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:00 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectResident")): Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectResident"), residentName, false): All options with value 'Mai Kuraki' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:01 - [MESSAGE][PASSED] - All options with value 'Mai Kuraki' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:01 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btnSubmit")): Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:01 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:01 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:01 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:01 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:01 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:36:01 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:36:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:36:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:36:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/apartment/edit/apartment_edit_success" time="10.191" classname="Test Cases/apartment/edit/apartment_edit_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"residentName":"Khang Hoài","numberOfApartme...":"309","status":"available"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:36:04 - [TEST_CASE][PASSED] - Test Cases/apartment/edit/apartment_edit_success: Test Cases/apartment/edit/apartment_edit_success
+
+14-06-2025T20:36:04 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:36:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:36:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:36:07 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:36:07 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btn_manageAparment")): Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:08 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/btnEdit")): Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("apartment/edit/txtNumberOfApart"), numberOfApartment): Text '309' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:09 - [MESSAGE][PASSED] - Text '309' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:09 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectStatus")): Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectStatus"), status, false): All options with value 'available' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:10 - [MESSAGE][PASSED] - All options with value 'available' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:10 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectResident")): Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectResident"), residentName, false): All options with value 'Khang Hoài' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:11 - [MESSAGE][PASSED] - All options with value 'Khang Hoài' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:11 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btnSubmit")): Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:11 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:11 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:11 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:11 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:11 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:36:11 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:36:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:36:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:36:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:36:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/apartment/edit/apartment_edit_fail" time="10.398" classname="Test Cases/apartment/edit/apartment_edit_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"residentName":"Mai Kuraki","numberOfApartme...":"305","status":"available"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:36:14 - [TEST_CASE][PASSED] - Test Cases/apartment/edit/apartment_edit_fail: Test Cases/apartment/edit/apartment_edit_fail
+
+14-06-2025T20:36:14 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:36:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:36:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:36:18 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:36:18 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btn_manageAparment")): Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:18 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/btnEdit")): Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:19 - [TEST_STEP][PASSED] - setText(findTestObject("apartment/edit/txtNumberOfApart"), numberOfApartment): Text '305' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:20 - [MESSAGE][PASSED] - Text '305' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:20 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectStatus")): Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectStatus"), status, false): All options with value 'available' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:20 - [MESSAGE][PASSED] - All options with value 'available' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:20 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectResident")): Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectResident"), residentName, false): All options with value 'Mai Kuraki' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:21 - [MESSAGE][PASSED] - All options with value 'Mai Kuraki' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:21 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btnSubmit")): Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:22 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:22 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:22 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:22 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:22 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:36:22 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:36:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:36:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:36:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:36:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/apartment/edit/apartment_edit_fail" time="9.994" classname="Test Cases/apartment/edit/apartment_edit_fail" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"residentName":"Huy Cao","numberOfApartme...":"209","status":"inAvailable"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:36:24 - [TEST_CASE][PASSED] - Test Cases/apartment/edit/apartment_edit_fail: Test Cases/apartment/edit/apartment_edit_fail
+
+14-06-2025T20:36:25 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:36:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:36:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:36:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:36:28 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:36:28 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btn_manageAparment")): Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btn_manageAparment' is clicked on
+
+14-06-2025T20:36:29 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/btnEdit")): Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/btnEdit' is clicked on
+
+14-06-2025T20:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("apartment/edit/txtNumberOfApart"), numberOfApartment): Text '209' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:30 - [MESSAGE][PASSED] - Text '209' is set on object 'Object Repository/apartment/edit/txtNumberOfApart'
+
+14-06-2025T20:36:30 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectStatus")): Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectStatus' is clicked on
+
+14-06-2025T20:36:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectStatus"), status, false): All options with value 'inAvailable' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:31 - [MESSAGE][PASSED] - All options with value 'inAvailable' are selected in object 'Object Repository/apartment/edit/selectStatus' 
+
+14-06-2025T20:36:31 - [TEST_STEP][PASSED] - click(findTestObject("apartment/edit/selectResident")): Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/edit/selectResident' is clicked on
+
+14-06-2025T20:36:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("apartment/edit/selectResident"), residentName, false): All options with value 'Huy Cao' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:32 - [MESSAGE][PASSED] - All options with value 'Huy Cao' are selected in object 'Object Repository/apartment/edit/selectResident' 
+
+14-06-2025T20:36:32 - [TEST_STEP][PASSED] - click(findTestObject("apartment/add/btnSubmit")): Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/apartment/add/btnSubmit' is clicked on
+
+14-06-2025T20:36:32 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:32 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:32 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:36:32 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:36:32 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:36:32 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:36:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:36:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:36:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:36:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:35:45 - [TEST_SUITE][PASSED] - edit_Apartment: Test Cases/apartment/edit/apartment_edit_fail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/login/login_success","testCaseId":"Test Cases/login/login_success","iterationVariableName":"","bindedValues":{"password":"\u0027123123zzz\u0027","expectedMsg":"\u0027userHuy1\u0027","username":"\u0027userHuy1\u0027"}}
+{"testCaseName":"Test Cases/apartment/delete/apartment_delete","testCaseId":"Test Cases/apartment/delete/apartment_delete","iterationVariableName":""}

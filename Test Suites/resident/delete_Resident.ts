@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>delete_Resident</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>1bc54557-932c-46b4-b18b-5ae0a6b8847d</testSuiteGuid>
+   <testCaseLink>
+      <guid>3f702b70-db28-40fe-a758-ebc519e2dfbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login/login_success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d6f40d3-74bd-4c87-a216-0d4fb0b6121d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/loginData/loginSuccess</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6d6f40d3-74bd-4c87-a216-0d4fb0b6121d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>12db6fb3-1f7d-4c3e-b791-410378a03fb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6d6f40d3-74bd-4c87-a216-0d4fb0b6121d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b04ce358-939e-449a-9a4d-5ce21093f005</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6d6f40d3-74bd-4c87-a216-0d4fb0b6121d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedMsg</value>
+         <variableId>7d9521c1-41c1-4924-978f-4eb62b4df9c6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6e26cc6-a0a4-43db-b7a8-e973afb96771</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/resident/delete/resident_delete</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

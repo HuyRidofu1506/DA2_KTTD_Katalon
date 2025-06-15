@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>showResident</name>
+   <tag></tag>
+   <elementGuidId>d4f92c38-63be-4268-a574-773ff0bc95ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.page-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Resident'])[3]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2f838230-d6b6-4a36-8cb1-652323a26693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page-wrapper</value>
+      <webElementGuid>dbd7dafb-1e06-4ddf-bb63-2dd8697914e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SearchAddIdNameGenderDate of birthCCCDPhone NumberCreated AtUpdated AtAction10Nguyễn Văn Amale2001-02-1012345678912098765432112:30 23/12/202403:25 01/01/2025EditDelete11Cao Thị Tfemale2001-03-01123456789013684802112:34 23/12/202412:34 23/12/2024EditDelete12Cao Văn Cmale1989-03-201234567890012345678913:06 23/12/202413:06 23/12/2024EditDelete14tumale2025-01-1012345678901099882104503:24 01/01/202503:24 01/01/2025EditDelete15Khangmale2003-01-101234567893099882147705:29 07/01/202505:29 07/01/2025EditDelete Prev page 1 / 2 You're on page 1page 2 Next page</value>
+      <webElementGuid>e848c5f6-5c3e-438f-92a9-90ea4202fdf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-admin[1]/div[@class=&quot;pc-container&quot;]/div[@class=&quot;coded-wrapper&quot;]/div[@class=&quot;coded-content&quot;]/div[@class=&quot;coded-inner-content&quot;]/div[@class=&quot;main-body&quot;]/div[@class=&quot;page-wrapper&quot;]</value>
+      <webElementGuid>c803166f-bc6f-4b0b-bdb7-b6c86e6c8278</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Resident'])[3]/following::div[2]</value>
+      <webElementGuid>ece023a3-588c-45ae-8b8e-2a1fa0022a9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Resident'])[2]/following::div[4]</value>
+      <webElementGuid>08a4810f-047d-41e6-86a3-9c1e39961489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div</value>
+      <webElementGuid>914bef45-c51d-4b0d-b4cc-494036f4323b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;SearchAddIdNameGenderDate of birthCCCDPhone NumberCreated AtUpdated AtAction10Nguyễn Văn Amale2001-02-1012345678912098765432112:30 23/12/202403:25 01/01/2025EditDelete11Cao Thị Tfemale2001-03-01123456789013684802112:34 23/12/202412:34 23/12/2024EditDelete12Cao Văn Cmale1989-03-201234567890012345678913:06 23/12/202413:06 23/12/2024EditDelete14tumale2025-01-1012345678901099882104503:24 01/01/202503:24 01/01/2025EditDelete15Khangmale2003-01-101234567893099882147705:29 07/01/202505:29 07/01/2025EditDelete Prev page 1 / 2 You&quot; , &quot;'&quot; , &quot;re on page 1page 2 Next page&quot;) or . = concat(&quot;SearchAddIdNameGenderDate of birthCCCDPhone NumberCreated AtUpdated AtAction10Nguyễn Văn Amale2001-02-1012345678912098765432112:30 23/12/202403:25 01/01/2025EditDelete11Cao Thị Tfemale2001-03-01123456789013684802112:34 23/12/202412:34 23/12/2024EditDelete12Cao Văn Cmale1989-03-201234567890012345678913:06 23/12/202413:06 23/12/2024EditDelete14tumale2025-01-1012345678901099882104503:24 01/01/202503:24 01/01/2025EditDelete15Khangmale2003-01-101234567893099882147705:29 07/01/202505:29 07/01/2025EditDelete Prev page 1 / 2 You&quot; , &quot;'&quot; , &quot;re on page 1page 2 Next page&quot;))]</value>
+      <webElementGuid>b760d7d4-fe96-4af8-b8ce-f0107ba25833</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

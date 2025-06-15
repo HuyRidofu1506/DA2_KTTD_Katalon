@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add_Report" time="45.579" tests="4" failures="0" errors="0">
+   <testsuite name="add_Report" tests="4" failures="0" errors="0" time="45.579" skipped="0" timestamp="14-06-2025T20:53:45" hostname="DELL - host.docker.internal" id="Test Suites/report/add_Report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_205339\\report\\add_Report\\20250614_205339"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_205339\\report\\add_Report\\20250614_205339\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_205339\\report\\add_Report\\20250614_205339\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="eab9620a2ca7530650cb6bba72c247be"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="10.695" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:53:47 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:53:48 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:53:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:53:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:53:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:53:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:53:55 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:53:56 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:53:56 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:53:56 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:53:57 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:53:57 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/report/add/report_add_success" time="11.583" classname="Test Cases/report/add/report_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"date":"12/12/2024","nameReport":"Báo cáo tháng 12","content":"Cuối năm các hộ hoạt động bình thường"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:53:58 - [TEST_CASE][PASSED] - Test Cases/report/add/report_add_success: Test Cases/report/add/report_add_success
+
+14-06-2025T20:53:58 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:53:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:53:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:53:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:54:02 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:54:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:54:02 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:54:02 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btn_manageReport")): Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:02 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnAdd")): Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:03 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtName"), nameReport): Text 'Báo cáo tháng 12' is set on object 'Object Repository/report/add/txtName'
+
+14-06-2025T20:54:04 - [MESSAGE][PASSED] - Text 'Báo cáo tháng 12' is set on object 'Object Repository/report/add/txtName'
+
+14-06-2025T20:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtDate"), date): Text '12/12/2024' is set on object 'Object Repository/report/add/txtDate'
+
+14-06-2025T20:54:05 - [MESSAGE][PASSED] - Text '12/12/2024' is set on object 'Object Repository/report/add/txtDate'
+
+14-06-2025T20:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtContent"), content): Text 'Cuối năm các hộ hoạt động bình thường' is set on object 'Object Repository/report/add/txtContent'
+
+14-06-2025T20:54:05 - [MESSAGE][PASSED] - Text 'Cuối năm các hộ hoạt động bình thường' is set on object 'Object Repository/report/add/txtContent'
+
+14-06-2025T20:54:05 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnSubmit")): Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:06 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:54:06 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:54:06 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:54:06 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:54:06 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:54:06 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:54:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:54:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:54:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:54:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/report/add/report_add_success" time="10.878" classname="Test Cases/report/add/report_add_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"date":"31/01/2025","nameReport":"Báo cáo tháng 1","content":"Đầu năm chung cư siết chặt các quy định theo lễ tết"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:54:09 - [TEST_CASE][PASSED] - Test Cases/report/add/report_add_success: Test Cases/report/add/report_add_success
+
+14-06-2025T20:54:09 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:54:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:54:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:54:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:54:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:54:14 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:54:14 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btn_manageReport")): Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:14 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnAdd")): Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtName"), nameReport): Text 'Báo cáo tháng 1' is set on object 'Object Repository/report/add/txtName'
+
+14-06-2025T20:54:16 - [MESSAGE][PASSED] - Text 'Báo cáo tháng 1' is set on object 'Object Repository/report/add/txtName'
+
+14-06-2025T20:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtDate"), date): Text '31/01/2025' is set on object 'Object Repository/report/add/txtDate'
+
+14-06-2025T20:54:16 - [MESSAGE][PASSED] - Text '31/01/2025' is set on object 'Object Repository/report/add/txtDate'
+
+14-06-2025T20:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("report/add/txtContent"), content): Text 'Đầu năm chung cư siết chặt các quy định theo lễ tết' is set on object 'Object Repository/report/add/txtContent'
+
+14-06-2025T20:54:17 - [MESSAGE][PASSED] - Text 'Đầu năm chung cư siết chặt các quy định theo lễ tết' is set on object 'Object Repository/report/add/txtContent'
+
+14-06-2025T20:54:17 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnSubmit")): Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:18 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:54:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:54:18 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:54:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:54:18 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:54:18 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:54:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:54:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:54:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:54:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/report/add/report_add_required" time="10.87" classname="Test Cases/report/add/report_add_required" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) date":"","(Default) resid...":"","(Default) numbe...":"","(Default) statu...":"","(Default) numEl...":"","(Default) toile...":"","(Default) numWa...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:54:20 - [TEST_CASE][PASSED] - Test Cases/report/add/report_add_required: Test Cases/report/add/report_add_required
+
+14-06-2025T20:54:20 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:54:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:54:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:54:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:54:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:54:24 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:54:24 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btn_manageReport")): Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btn_manageReport' is clicked on
+
+14-06-2025T20:54:24 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnAdd")): Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnAdd' is clicked on
+
+14-06-2025T20:54:25 - [TEST_STEP][PASSED] - click(findTestObject("report/add/btnSubmit")): Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/report/add/btnSubmit' is clicked on
+
+14-06-2025T20:54:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:54:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:54:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("report/add/requiredName"), "Name is required."): Actual text and expected text of test object 'Object Repository/report/add/requiredName' are matched.
+
+14-06-2025T20:54:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/report/add/requiredName' are matched.
+
+14-06-2025T20:54:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("report/add/requiredDate"), "Date is required."): Actual text and expected text of test object 'Object Repository/report/add/requiredDate' are matched.
+
+14-06-2025T20:54:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/report/add/requiredDate' are matched.
+
+14-06-2025T20:54:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("report/add/requiredContent"), "Content is required."): Actual text and expected text of test object 'Object Repository/report/add/requiredContent' are matched.
+
+14-06-2025T20:54:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/report/add/requiredContent' are matched.
+
+14-06-2025T20:54:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:54:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:53:45 - [TEST_SUITE][PASSED] - add_Report: Test Cases/report/add/report_add_required]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,347 @@
+2025-06-14 20:01:52.953 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/resident/add_Resident
+2025-06-14 20:01:53.096 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Cao Nguyễn Xuân Huy
+2025-06-14 20:01:53.099 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = QLCC
+2025-06-14 20:01:53.100 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = DELL - host.docker.internal
+2025-06-14 20:01:53.101 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-14 20:01:53.102 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.2.44
+2025-06-14 20:01:53.103 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-14 20:01:54.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:01:54.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login/login_success
+2025-06-14 20:01:54.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = userHuy1
+2025-06-14 20:01:54.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123123zzz
+2025-06-14 20:01:54.148 INFO  c.k.katalon.core.main.TestCaseExecutor   - expectedMsg = userHuy1
+2025-06-14 20:01:54.835 DEBUG testcase.login_success                   - 1: openBrowser("http://localhost:4200/login")
+2025-06-14 20:01:55.266 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:01:55.331 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:01:55.333 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:01:55.564 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 230 ms
+2025-06-14 20:01:55.565 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:01:55.565 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:01:55.600 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:01:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:01:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:01:58.595 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 35ebd092d67ce182b8213470584fe1ff
+2025-06-14 20:01:58.597 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:01:58.598 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:01:58.599 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:01:58.616 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:01:59.365 DEBUG testcase.login_success                   - 2: maximizeWindow()
+2025-06-14 20:01:59.686 DEBUG testcase.login_success                   - 3: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username)
+2025-06-14 20:02:00.734 DEBUG testcase.login_success                   - 4: setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password)
+2025-06-14 20:02:01.342 DEBUG testcase.login_success                   - 5: click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login"))
+2025-06-14 20:02:01.704 DEBUG testcase.login_success                   - 6: verifyTextPresent(expectedMsg, false)
+2025-06-14 20:02:02.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login/login_success
+2025-06-14 20:02:02.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:02.449 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:02.475 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Huy Cao
+2025-06-14 20:02:02.476 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:02:02.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 15/06/2003
+2025-06-14 20:02:02.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 1472583691
+2025-06-14 20:02:02.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0147258963
+2025-06-14 20:02:02.627 DEBUG testcase.resident_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:02.634 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:03.224 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:03.226 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:03.226 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:03.365 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 139 ms
+2025-06-14 20:02:03.365 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:03.365 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:03.365 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:04.702 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d276bc5b41608241dab1f117e6c3721c
+2025-06-14 20:02:04.703 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:04.704 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:04.707 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:04.709 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:06.265 DEBUG testcase.resident_add_success            - 2: maximizeWindow()
+2025-06-14 20:02:06.345 DEBUG testcase.resident_add_success            - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:06.835 DEBUG testcase.resident_add_success            - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:02:07.858 DEBUG testcase.resident_add_success            - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:02:08.267 DEBUG testcase.resident_add_success            - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:02:09.042 DEBUG testcase.resident_add_success            - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:02:09.676 DEBUG testcase.resident_add_success            - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:02:10.352 DEBUG testcase.resident_add_success            - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:02:11.054 DEBUG testcase.resident_add_success            - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:02:11.435 DEBUG testcase.resident_add_success            - 11: waitForAlert(2)
+2025-06-14 20:02:11.506 DEBUG testcase.resident_add_success            - 12: verifyAlertPresent(2)
+2025-06-14 20:02:11.542 DEBUG testcase.resident_add_success            - 13: acceptAlert()
+2025-06-14 20:02:11.589 DEBUG testcase.resident_add_success            - 14: delay(2)
+2025-06-14 20:02:13.693 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:13.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:13.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:13.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Mai Kuraki
+2025-06-14 20:02:13.879 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = female
+2025-06-14 20:02:13.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 01/01/1989
+2025-06-14 20:02:13.882 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 1239874506
+2025-06-14 20:02:13.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0321456987
+2025-06-14 20:02:13.892 DEBUG testcase.resident_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:13.901 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:14.553 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:14.554 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:14.554 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:14.668 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 113 ms
+2025-06-14 20:02:14.668 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:14.668 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:14.668 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:16.196 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2c674d7abf4f7bddc4908c16f62c8ed2
+2025-06-14 20:02:16.197 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:16.198 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:16.199 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:16.200 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:17.881 DEBUG testcase.resident_add_success            - 2: maximizeWindow()
+2025-06-14 20:02:17.997 DEBUG testcase.resident_add_success            - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:18.390 DEBUG testcase.resident_add_success            - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:02:19.464 DEBUG testcase.resident_add_success            - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:02:19.909 DEBUG testcase.resident_add_success            - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:02:20.576 DEBUG testcase.resident_add_success            - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:02:21.208 DEBUG testcase.resident_add_success            - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:02:21.938 DEBUG testcase.resident_add_success            - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:02:22.624 DEBUG testcase.resident_add_success            - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:02:22.981 DEBUG testcase.resident_add_success            - 11: waitForAlert(2)
+2025-06-14 20:02:23.019 DEBUG testcase.resident_add_success            - 12: verifyAlertPresent(2)
+2025-06-14 20:02:23.030 DEBUG testcase.resident_add_success            - 13: acceptAlert()
+2025-06-14 20:02:23.051 DEBUG testcase.resident_add_success            - 14: delay(2)
+2025-06-14 20:02:25.074 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:25.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:25.190 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:25.210 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Khang Hoài
+2025-06-14 20:02:25.210 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:02:25.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 31/12/1999
+2025-06-14 20:02:25.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 5621362987
+2025-06-14 20:02:25.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0123698547
+2025-06-14 20:02:25.214 DEBUG testcase.resident_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:25.221 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:25.802 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:25.803 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:25.804 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:25.927 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 123 ms
+2025-06-14 20:02:25.927 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:25.927 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:25.927 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:27.203 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b1b477de8836b69f9684f50e73aa3e21
+2025-06-14 20:02:27.205 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:27.206 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:27.208 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:27.210 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:28.775 DEBUG testcase.resident_add_success            - 2: maximizeWindow()
+2025-06-14 20:02:28.859 DEBUG testcase.resident_add_success            - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:29.400 DEBUG testcase.resident_add_success            - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:02:30.367 DEBUG testcase.resident_add_success            - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:02:30.779 DEBUG testcase.resident_add_success            - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:02:31.417 DEBUG testcase.resident_add_success            - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:02:32.015 DEBUG testcase.resident_add_success            - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:02:32.598 DEBUG testcase.resident_add_success            - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:02:33.279 DEBUG testcase.resident_add_success            - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:02:33.623 DEBUG testcase.resident_add_success            - 11: waitForAlert(2)
+2025-06-14 20:02:33.655 DEBUG testcase.resident_add_success            - 12: verifyAlertPresent(2)
+2025-06-14 20:02:33.666 DEBUG testcase.resident_add_success            - 13: acceptAlert()
+2025-06-14 20:02:33.688 DEBUG testcase.resident_add_success            - 14: delay(2)
+2025-06-14 20:02:35.711 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:35.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:35.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:35.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Huy Cao
+2025-06-14 20:02:35.738 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:02:35.738 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 15/06/2003
+2025-06-14 20:02:35.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 1472525691
+2025-06-14 20:02:35.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0147258963
+2025-06-14 20:02:35.744 DEBUG testcase.resident_add_success            - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:35.749 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:36.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:36.243 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:36.244 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:37.154 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 910 ms
+2025-06-14 20:02:37.155 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:37.155 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:37.155 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:38.282 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 760ecd08d92d3136c795a841efdf1d1a
+2025-06-14 20:02:38.284 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:38.284 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:38.285 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:38.286 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:39.834 DEBUG testcase.resident_add_success            - 2: maximizeWindow()
+2025-06-14 20:02:40.012 DEBUG testcase.resident_add_success            - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:40.516 DEBUG testcase.resident_add_success            - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:02:41.437 DEBUG testcase.resident_add_success            - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:02:41.759 DEBUG testcase.resident_add_success            - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:02:42.330 DEBUG testcase.resident_add_success            - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:02:42.887 DEBUG testcase.resident_add_success            - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:02:43.429 DEBUG testcase.resident_add_success            - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:02:43.995 DEBUG testcase.resident_add_success            - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:02:44.292 DEBUG testcase.resident_add_success            - 11: waitForAlert(2)
+2025-06-14 20:02:44.318 DEBUG testcase.resident_add_success            - 12: verifyAlertPresent(2)
+2025-06-14 20:02:44.328 DEBUG testcase.resident_add_success            - 13: acceptAlert()
+2025-06-14 20:02:44.340 DEBUG testcase.resident_add_success            - 14: delay(2)
+2025-06-14 20:02:46.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_success
+2025-06-14 20:02:46.362 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:46.363 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_required
+2025-06-14 20:02:46.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) hoten = 
+2025-06-14 20:02:46.395 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) gender = 
+2025-06-14 20:02:46.395 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) dob = 
+2025-06-14 20:02:46.396 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) cccd = 
+2025-06-14 20:02:46.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) phone = 
+2025-06-14 20:02:46.492 DEBUG testcase.resident_add_required           - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:46.498 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:46.950 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:46.951 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:46.952 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:47.037 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 85 ms
+2025-06-14 20:02:47.038 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:47.038 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:47.038 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:48.283 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bbcbd14be0ea12162daee75e48b7fd39
+2025-06-14 20:02:48.284 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:48.284 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:48.285 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:48.285 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:49.778 DEBUG testcase.resident_add_required           - 2: maximizeWindow()
+2025-06-14 20:02:49.852 DEBUG testcase.resident_add_required           - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:50.303 DEBUG testcase.resident_add_required           - 4: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:02:50.856 DEBUG testcase.resident_add_required           - 5: delay(2)
+2025-06-14 20:02:52.863 DEBUG testcase.resident_add_required           - 6: verifyElementText(findTestObject("resident/addResident/requiredName"), "Name is required.")
+2025-06-14 20:02:53.147 DEBUG testcase.resident_add_required           - 7: verifyElementText(findTestObject("resident/addResident/requiredGender"), "Gender is required.")
+2025-06-14 20:02:53.400 DEBUG testcase.resident_add_required           - 8: verifyElementText(findTestObject("resident/addResident/requiredDOB"), "Date of Birth is required.")
+2025-06-14 20:02:53.653 DEBUG testcase.resident_add_required           - 9: verifyElementText(findTestObject("resident/addResident/requiredCCCD"), "CCCD is required.")
+2025-06-14 20:02:53.902 DEBUG testcase.resident_add_required           - 10: verifyElementText(findTestObject("resident/addResident/requiredPhone"), "Phone Number is required.")
+2025-06-14 20:02:54.154 DEBUG testcase.resident_add_required           - 11: delay(2)
+2025-06-14 20:02:56.169 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_required
+2025-06-14 20:02:56.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:02:56.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_fail
+2025-06-14 20:02:56.185 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Huy Cao
+2025-06-14 20:02:56.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:02:56.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 15/06/2003
+2025-06-14 20:02:56.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 1472583691
+2025-06-14 20:02:56.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0147258963
+2025-06-14 20:02:56.279 DEBUG testcase.resident_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:02:56.283 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:02:56.681 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:02:56.682 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:02:56.682 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:02:56.764 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 82 ms
+2025-06-14 20:02:56.764 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:02:56.764 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:02:56.764 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:02:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:02:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:02:57.721 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5c6030d0122347ad00b97c08fdba2dbb
+2025-06-14 20:02:57.722 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:02:57.723 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:02:57.724 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:02:57.725 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:02:59.209 DEBUG testcase.resident_add_fail               - 2: maximizeWindow()
+2025-06-14 20:02:59.284 DEBUG testcase.resident_add_fail               - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:02:59.776 DEBUG testcase.resident_add_fail               - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:03:00.637 DEBUG testcase.resident_add_fail               - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:03:00.989 DEBUG testcase.resident_add_fail               - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:03:01.524 DEBUG testcase.resident_add_fail               - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:03:02.066 DEBUG testcase.resident_add_fail               - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:03:02.611 DEBUG testcase.resident_add_fail               - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:03:03.262 DEBUG testcase.resident_add_fail               - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:03:03.591 DEBUG testcase.resident_add_fail               - 11: waitForAlert(2)
+2025-06-14 20:03:03.615 DEBUG testcase.resident_add_fail               - 12: verifyAlertPresent(2)
+2025-06-14 20:03:03.626 DEBUG testcase.resident_add_fail               - 13: acceptAlert()
+2025-06-14 20:03:03.645 DEBUG testcase.resident_add_fail               - 14: delay(2)
+2025-06-14 20:03:05.659 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_fail
+2025-06-14 20:03:05.662 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:03:05.662 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_fail
+2025-06-14 20:03:05.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Mai Kuraki
+2025-06-14 20:03:05.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = female
+2025-06-14 20:03:05.672 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 01/01/1989
+2025-06-14 20:03:05.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 1239874506
+2025-06-14 20:03:05.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0321456987
+2025-06-14 20:03:05.675 DEBUG testcase.resident_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:03:05.679 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:03:06.178 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:03:06.180 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:03:06.180 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:03:06.295 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 115 ms
+2025-06-14 20:03:06.295 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:03:06.296 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:03:06.296 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:03:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:03:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:03:07.304 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f3f78e8a18ee2531431e1848dbf4d5c1
+2025-06-14 20:03:07.305 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:03:07.306 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:03:07.307 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:03:07.308 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:03:08.768 DEBUG testcase.resident_add_fail               - 2: maximizeWindow()
+2025-06-14 20:03:08.854 DEBUG testcase.resident_add_fail               - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:03:09.310 DEBUG testcase.resident_add_fail               - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:03:10.162 DEBUG testcase.resident_add_fail               - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:03:10.475 DEBUG testcase.resident_add_fail               - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:03:10.998 DEBUG testcase.resident_add_fail               - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:03:11.542 DEBUG testcase.resident_add_fail               - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:03:12.089 DEBUG testcase.resident_add_fail               - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:03:12.660 DEBUG testcase.resident_add_fail               - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:03:12.952 DEBUG testcase.resident_add_fail               - 11: waitForAlert(2)
+2025-06-14 20:03:12.983 DEBUG testcase.resident_add_fail               - 12: verifyAlertPresent(2)
+2025-06-14 20:03:12.991 DEBUG testcase.resident_add_fail               - 13: acceptAlert()
+2025-06-14 20:03:13.007 DEBUG testcase.resident_add_fail               - 14: delay(2)
+2025-06-14 20:03:15.026 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_fail
+2025-06-14 20:03:15.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-14 20:03:15.029 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/resident/add/resident_add_fail
+2025-06-14 20:03:15.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - hoten = Khang Hoài
+2025-06-14 20:03:15.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - gender = male
+2025-06-14 20:03:15.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - dob = 31/12/1999
+2025-06-14 20:03:15.038 INFO  c.k.katalon.core.main.TestCaseExecutor   - cccd = 5621362987
+2025-06-14 20:03:15.039 INFO  c.k.katalon.core.main.TestCaseExecutor   - phone = 0123698547
+2025-06-14 20:03:15.040 DEBUG testcase.resident_add_fail               - 1: openBrowser("http://localhost:4200/manage-resident")
+2025-06-14 20:03:15.044 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-14 20:03:15.528 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-14 20:03:15.529 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-14 20:03:15.530 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-14 20:03:15.646 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 116 ms
+2025-06-14 20:03:15.646 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\DELL\.cache\selenium\chromedriver\win64\137.0.7151.70\chromedriver.exe
+2025-06-14 20:03:15.646 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\DELL\.cache\selenium\chrome\win64\137.0.7151.70\chrome.exe
+2025-06-14 20:03:15.646 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2025 8:03:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 14, 2025 8:03:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-14 20:03:16.774 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8ce8043ab8195b9eec5fc9570ca14bd7
+2025-06-14 20:03:16.774 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.70
+2025-06-14 20:03:16.775 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-14 20:03:16.775 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-14 20:03:16.775 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-14 20:03:18.238 DEBUG testcase.resident_add_fail               - 2: maximizeWindow()
+2025-06-14 20:03:18.309 DEBUG testcase.resident_add_fail               - 3: click(findTestObject("resident/manageHome/btnAdd"))
+2025-06-14 20:03:18.757 DEBUG testcase.resident_add_fail               - 4: setText(findTestObject("resident/addResident/txtName"), hoten)
+2025-06-14 20:03:19.608 DEBUG testcase.resident_add_fail               - 5: click(findTestObject("resident/addResident/selectGender"))
+2025-06-14 20:03:19.949 DEBUG testcase.resident_add_fail               - 6: selectOptionByValue(findTestObject("resident/addResident/selectGender"), gender, false)
+2025-06-14 20:03:20.484 DEBUG testcase.resident_add_fail               - 7: setText(findTestObject("resident/addResident/txtDOB"), dob)
+2025-06-14 20:03:21.046 DEBUG testcase.resident_add_fail               - 8: setText(findTestObject("resident/addResident/txtCCCD"), cccd)
+2025-06-14 20:03:21.591 DEBUG testcase.resident_add_fail               - 9: setText(findTestObject("resident/addResident/txtPhoneNumber"), phone)
+2025-06-14 20:03:22.135 DEBUG testcase.resident_add_fail               - 10: click(findTestObject("resident/addResident/btnSubmit"))
+2025-06-14 20:03:22.425 DEBUG testcase.resident_add_fail               - 11: waitForAlert(2)
+2025-06-14 20:03:22.445 DEBUG testcase.resident_add_fail               - 12: verifyAlertPresent(2)
+2025-06-14 20:03:22.451 DEBUG testcase.resident_add_fail               - 13: acceptAlert()
+2025-06-14 20:03:22.464 DEBUG testcase.resident_add_fail               - 14: delay(2)
+2025-06-14 20:03:24.480 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/resident/add/resident_add_fail
+2025-06-14 20:03:24.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-14 20:03:24.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/resident/add_Resident
+2025-06-14 20:03:24.929 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

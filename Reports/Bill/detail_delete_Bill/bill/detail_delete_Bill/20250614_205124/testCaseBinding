@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/login/login_success","testCaseId":"Test Cases/login/login_success","iterationVariableName":"","bindedValues":{"password":"\u0027123123zzz\u0027","expectedMsg":"\u0027userHuy1\u0027","username":"\u0027userHuy1\u0027"}}
+{"testCaseName":"Test Cases/bill/detail/bill_detail","testCaseId":"Test Cases/bill/detail/bill_detail","iterationVariableName":""}
+{"testCaseName":"Test Cases/bill/delete/bill_delete","testCaseId":"Test Cases/bill/delete/bill_delete","iterationVariableName":""}

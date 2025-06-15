@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edit_Apartment,Chrome 137.0.7151.70,,,14-06-2025 20:35:45,14-06-2025 20:36:35,49.717s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:35:46,14-06-2025 20:35:53,7.285s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:35:46,14-06-2025 20:35:50,3.827s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:35:50,14-06-2025 20:35:50,0.140s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:35:50,14-06-2025 20:35:51,0.983s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:35:51,14-06-2025 20:35:52,0.615s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:35:52,14-06-2025 20:35:52,0.395s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:35:52,14-06-2025 20:35:53,0.724s,PASSED
+,,,,,,,
+Test Cases/apartment/edit/apartment_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:35:53,14-06-2025 20:36:04,10.656s,PASSED
+"DATA BINDING - {""residentName"":""Mai Kuraki"",""numberOfApartme..."":""201"",""status"":""inAvailable""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:35:53,14-06-2025 20:35:57,3.346s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:35:57,14-06-2025 20:35:57,0.075s,PASSED
+"click(findTestObject(""apartment/add/btn_manageAparment""))",Chrome 137.0.7151.70,,,14-06-2025 20:35:57,14-06-2025 20:35:57,0.582s,PASSED
+"click(findTestObject(""apartment/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:35:57,14-06-2025 20:35:58,0.541s,PASSED
+"setText(findTestObject(""apartment/edit/txtNumberOfApart""), numberOfApartment)",Chrome 137.0.7151.70,,,14-06-2025 20:35:58,14-06-2025 20:35:59,0.874s,PASSED
+"click(findTestObject(""apartment/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:35:59,14-06-2025 20:35:59,0.400s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:35:59,14-06-2025 20:36:00,0.623s,PASSED
+"click(findTestObject(""apartment/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:00,14-06-2025 20:36:00,0.349s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:00,14-06-2025 20:36:01,0.559s,PASSED
+"click(findTestObject(""apartment/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:01,14-06-2025 20:36:01,0.369s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:01,14-06-2025 20:36:01,0.070s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Apartment updated successfully!""",,14-06-2025 20:36:01,14-06-2025 20:36:01,0.033s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:36:01,14-06-2025 20:36:01,0.053s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:01,14-06-2025 20:36:03,2.067s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:36:03,14-06-2025 20:36:04,0.486s,PASSED
+,,,,,,,
+Test Cases/apartment/edit/apartment_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:36:04,14-06-2025 20:36:14,10.191s,PASSED
+"DATA BINDING - {""residentName"":""Khang Hoài"",""numberOfApartme..."":""309"",""status"":""available""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:36:04,14-06-2025 20:36:07,3.135s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:36:07,14-06-2025 20:36:07,0.163s,PASSED
+"click(findTestObject(""apartment/add/btn_manageAparment""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:07,14-06-2025 20:36:08,0.487s,PASSED
+"click(findTestObject(""apartment/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:08,14-06-2025 20:36:08,0.550s,PASSED
+"setText(findTestObject(""apartment/edit/txtNumberOfApart""), numberOfApartment)",Chrome 137.0.7151.70,,,14-06-2025 20:36:08,14-06-2025 20:36:09,0.855s,PASSED
+"click(findTestObject(""apartment/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:09,14-06-2025 20:36:09,0.391s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:09,14-06-2025 20:36:10,0.651s,PASSED
+"click(findTestObject(""apartment/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:10,14-06-2025 20:36:10,0.349s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:10,14-06-2025 20:36:11,0.542s,PASSED
+"click(findTestObject(""apartment/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:11,14-06-2025 20:36:11,0.306s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:11,14-06-2025 20:36:11,0.049s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Apartment updated successfully!""",,14-06-2025 20:36:11,14-06-2025 20:36:11,0.011s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:36:11,14-06-2025 20:36:11,0.017s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:11,14-06-2025 20:36:13,2.011s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:36:13,14-06-2025 20:36:14,0.646s,PASSED
+,,,,,,,
+Test Cases/apartment/edit/apartment_edit_fail,Chrome 137.0.7151.70,,,14-06-2025 20:36:14,14-06-2025 20:36:24,10.398s,PASSED
+"DATA BINDING - {""residentName"":""Mai Kuraki"",""numberOfApartme..."":""305"",""status"":""available""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:36:14,14-06-2025 20:36:18,3.303s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:36:18,14-06-2025 20:36:18,0.120s,PASSED
+"click(findTestObject(""apartment/add/btn_manageAparment""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:18,14-06-2025 20:36:18,0.419s,PASSED
+"click(findTestObject(""apartment/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:18,14-06-2025 20:36:19,0.652s,PASSED
+"setText(findTestObject(""apartment/edit/txtNumberOfApart""), numberOfApartment)",Chrome 137.0.7151.70,,,14-06-2025 20:36:19,14-06-2025 20:36:20,0.915s,PASSED
+"click(findTestObject(""apartment/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:20,14-06-2025 20:36:20,0.326s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:20,14-06-2025 20:36:20,0.540s,PASSED
+"click(findTestObject(""apartment/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:20,14-06-2025 20:36:21,0.345s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:21,14-06-2025 20:36:21,0.554s,PASSED
+"click(findTestObject(""apartment/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:21,14-06-2025 20:36:22,0.325s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:22,14-06-2025 20:36:22,0.037s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update fail: ""Error updating apartments. Please try again.""",,14-06-2025 20:36:22,14-06-2025 20:36:22,0.021s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:36:22,14-06-2025 20:36:22,0.030s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:22,14-06-2025 20:36:24,2.013s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:36:24,14-06-2025 20:36:24,0.563s,PASSED
+,,,,,,,
+Test Cases/apartment/edit/apartment_edit_fail,Chrome 137.0.7151.70,,,14-06-2025 20:36:24,14-06-2025 20:36:34,9.994s,PASSED
+"DATA BINDING - {""residentName"":""Huy Cao"",""numberOfApartme..."":""209"",""status"":""inAvailable""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:36:25,14-06-2025 20:36:28,3.400s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:36:28,14-06-2025 20:36:28,0.131s,PASSED
+"click(findTestObject(""apartment/add/btn_manageAparment""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:28,14-06-2025 20:36:29,0.469s,PASSED
+"click(findTestObject(""apartment/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:29,14-06-2025 20:36:29,0.546s,PASSED
+"setText(findTestObject(""apartment/edit/txtNumberOfApart""), numberOfApartment)",Chrome 137.0.7151.70,,,14-06-2025 20:36:29,14-06-2025 20:36:30,0.852s,PASSED
+"click(findTestObject(""apartment/edit/selectStatus""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:30,14-06-2025 20:36:30,0.317s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectStatus""), status, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:30,14-06-2025 20:36:31,0.543s,PASSED
+"click(findTestObject(""apartment/edit/selectResident""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:31,14-06-2025 20:36:31,0.379s,PASSED
+"selectOptionByValue(findTestObject(""apartment/edit/selectResident""), residentName, false)",Chrome 137.0.7151.70,,,14-06-2025 20:36:31,14-06-2025 20:36:32,0.539s,PASSED
+"click(findTestObject(""apartment/add/btnSubmit""))",Chrome 137.0.7151.70,,,14-06-2025 20:36:32,14-06-2025 20:36:32,0.311s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:32,14-06-2025 20:36:32,0.028s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update fail: ""Error updating apartments. Please try again.""",,14-06-2025 20:36:32,14-06-2025 20:36:32,0.009s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:36:32,14-06-2025 20:36:32,0.020s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:36:32,14-06-2025 20:36:34,2.015s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:36:34,14-06-2025 20:36:34,0.381s,PASSED

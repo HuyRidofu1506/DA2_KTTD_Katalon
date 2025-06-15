@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edit_Report,Chrome 137.0.7151.70,,,14-06-2025 20:55:54,14-06-2025 20:57:25,1m - 30.754s,PASSED
+,,,,,,,
+Test Cases/login/login_success,Chrome 137.0.7151.70,,,14-06-2025 20:55:55,14-06-2025 20:56:03,7.374s,PASSED
+"DATA BINDING - {""password"":""123123zzz"",""expectedMsg"":""userHuy1"",""username"":""userHuy1""}",,,,,,,
+"openBrowser(""http://localhost:4200/login"")",Chrome 137.0.7151.70,,,14-06-2025 20:55:56,14-06-2025 20:56:00,3.900s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:56:00,14-06-2025 20:56:00,0.165s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Username""), username)",Chrome 137.0.7151.70,Input username,,14-06-2025 20:56:00,14-06-2025 20:56:01,0.964s,PASSED
+"setText(findTestObject(""login/Page_Mantis Angular Dashboard Template/input_Password""), password)",Chrome 137.0.7151.70,Input password,,14-06-2025 20:56:01,14-06-2025 20:56:02,0.599s,PASSED
+"click(findTestObject(""login/Page_Mantis Angular Dashboard Template/button_Login""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:02,14-06-2025 20:56:02,0.384s,PASSED
+"verifyTextPresent(expectedMsg, false)",Chrome 137.0.7151.70,Verify username,,14-06-2025 20:56:02,14-06-2025 20:56:03,0.659s,PASSED
+,,,,,,,
+Test Cases/report/edit/report_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:56:03,14-06-2025 20:56:44,41.278s,PASSED
+"DATA BINDING - {""date"":""15/06/2025"",""nameReport"":""Báo cáo chi tiêu"",""content"":""Chung cư thông báo mọi người về giá tiền điện tăng""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:56:03,14-06-2025 20:56:06,3.568s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:56:06,14-06-2025 20:56:07,0.109s,PASSED
+"click(findTestObject(""report/add/btn_manageReport""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:07,14-06-2025 20:56:07,0.544s,PASSED
+"click(findTestObject(""report/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:07,14-06-2025 20:56:08,0.599s,PASSED
+"setText(findTestObject(""report/edit/txtName""), nameReport)",Chrome 137.0.7151.70,,,14-06-2025 20:56:08,14-06-2025 20:56:09,0.933s,PASSED
+"setText(findTestObject(""report/edit/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:56:09,14-06-2025 20:56:09,0.594s,PASSED
+"setText(findTestObject(""report/edit/txtContent""), content)",Chrome 137.0.7151.70,,,14-06-2025 20:56:09,14-06-2025 20:56:10,0.650s,PASSED
+"click(findTestObject(""report/edit/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:10,14-06-2025 20:56:41,31.456s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:56:41,14-06-2025 20:56:41,0.066s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Report updated successfully!""",,14-06-2025 20:56:41,14-06-2025 20:56:41,0.039s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:56:41,14-06-2025 20:56:41,0.041s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:56:41,14-06-2025 20:56:44,2.099s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:56:44,14-06-2025 20:56:44,0.423s,PASSED
+,,,,,,,
+Test Cases/report/edit/report_edit_success,Chrome 137.0.7151.70,,,14-06-2025 20:56:44,14-06-2025 20:57:25,40.953s,PASSED
+"DATA BINDING - {""date"":""30/04/2025"",""nameReport"":""Báo cáo hoạt động"",""content"":""Các hộ đều thực hiện đúng theo các quy định""}",,,,,,,
+"openBrowser(""http://localhost:4200/manage-resident"")",Chrome 137.0.7151.70,,,14-06-2025 20:56:44,14-06-2025 20:56:47,3.285s,PASSED
+maximizeWindow(),Chrome 137.0.7151.70,,,14-06-2025 20:56:47,14-06-2025 20:56:48,0.119s,PASSED
+"click(findTestObject(""report/add/btn_manageReport""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:48,14-06-2025 20:56:48,0.426s,PASSED
+"click(findTestObject(""report/edit/btnEdit""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:48,14-06-2025 20:56:49,0.586s,PASSED
+"setText(findTestObject(""report/edit/txtName""), nameReport)",Chrome 137.0.7151.70,,,14-06-2025 20:56:49,14-06-2025 20:56:49,0.913s,PASSED
+"setText(findTestObject(""report/edit/txtDate""), date)",Chrome 137.0.7151.70,,,14-06-2025 20:56:49,14-06-2025 20:56:50,0.705s,PASSED
+"setText(findTestObject(""report/edit/txtContent""), content)",Chrome 137.0.7151.70,,,14-06-2025 20:56:50,14-06-2025 20:56:51,0.901s,PASSED
+"click(findTestObject(""report/edit/btnUpdate""))",Chrome 137.0.7151.70,,,14-06-2025 20:56:51,14-06-2025 20:57:22,31.400s,PASSED
+waitForAlert(2),Chrome 137.0.7151.70,,,14-06-2025 20:57:22,14-06-2025 20:57:22,0.042s,PASSED
+verifyAlertPresent(2),Chrome 137.0.7151.70,"Show alert update success: ""Report updated successfully!""",,14-06-2025 20:57:22,14-06-2025 20:57:23,0.012s,PASSED
+acceptAlert(),Chrome 137.0.7151.70,,,14-06-2025 20:57:23,14-06-2025 20:57:23,0.021s,PASSED
+delay(2),Chrome 137.0.7151.70,,,14-06-2025 20:57:23,14-06-2025 20:57:25,2.016s,PASSED
+closeBrowser(),Chrome 137.0.7151.70,,,14-06-2025 20:57:25,14-06-2025 20:57:25,0.499s,PASSED

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="delete_Employee" time="16.405" tests="2" failures="0" errors="0">
+   <testsuite name="delete_Employee" tests="2" failures="0" errors="0" time="16.405" skipped="0" timestamp="14-06-2025T20:44:10" hostname="DELL - host.docker.internal" id="Test Suites/employee/delete_Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204404\\employee\\delete_Employee\\20250614_204404"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204404\\employee\\delete_Employee\\20250614_204404\\console0.log, C:\\Users\\DELL\\Katalon Studio\\QLCC\\Reports\\20250614_204404\\employee\\delete_Employee\\20250614_204404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.2.1.0"/>
+         <property name="browser" value="Chrome 137.0.7151.70"/>
+         <property name="userFullName" value="Cao Nguyễn Xuân Huy"/>
+         <property name="hostAddress" value="192.168.2.44"/>
+         <property name="sessionId" value="644771a30ebd2632f208bdf74df03737"/>
+         <property name="projectName" value="QLCC"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login/login_success" time="7.798" classname="Test Cases/login/login_success" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123123zzz","expectedMsg":"userHuy1","username":"userHuy1"}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:44:11 - [TEST_CASE][PASSED] - Test Cases/login/login_success: Test Cases/login/login_success
+
+14-06-2025T20:44:12 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/login"): Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:44:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:44:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:44:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/login'
+
+14-06-2025T20:44:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:44:16 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Username"), username): Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:44:17 - [MESSAGE][PASSED] - Text 'userHuy1' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Username'
+
+14-06-2025T20:44:17 - [TEST_STEP][PASSED] - setText(findTestObject("login/Page_Mantis Angular Dashboard Template/input_Password"), password): Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:44:18 - [MESSAGE][PASSED] - Text '123123zzz' is set on object 'Object Repository/login/Page_Mantis Angular Dashboard Template/input_Password'
+
+14-06-2025T20:44:18 - [TEST_STEP][PASSED] - click(findTestObject("login/Page_Mantis Angular Dashboard Template/button_Login")): Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_Mantis Angular Dashboard Template/button_Login' is clicked on
+
+14-06-2025T20:44:18 - [TEST_STEP][PASSED] - verifyTextPresent(expectedMsg, false): Text 'userHuy1' is present on page 
+
+14-06-2025T20:44:19 - [MESSAGE][PASSED] - Text 'userHuy1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/employee/delete/employee_delete" time="7.516" classname="Test Cases/employee/delete/employee_delete" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) dob":"","(Default) hoten":"","(Default) gende...":"","(Default) cccd":"","(Default) workT...":"","(Default) phone":"","(Default) posti...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[14-06-2025T20:44:19 - [TEST_CASE][PASSED] - Test Cases/employee/delete/employee_delete: Test Cases/employee/delete/employee_delete
+
+14-06-2025T20:44:19 - [TEST_STEP][PASSED] - openBrowser("http://localhost:4200/manage-resident"): Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:44:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2025T20:44:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2025T20:44:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2025T20:44:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://localhost:4200/manage-resident'
+
+14-06-2025T20:44:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-06-2025T20:44:23 - [MESSAGE][PASSED] - Current window maximized
+
+14-06-2025T20:44:23 - [TEST_STEP][PASSED] - click(findTestObject("employee/addEmployee/btn_manageEmployee")): Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/addEmployee/btn_manageEmployee' is clicked on
+
+14-06-2025T20:44:23 - [TEST_STEP][PASSED] - click(findTestObject("employee/deleteEmployee/btnDel")): Object: 'Object Repository/employee/deleteEmployee/btnDel' is clicked on
+
+14-06-2025T20:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/employee/deleteEmployee/btnDel' is clicked on
+
+14-06-2025T20:44:24 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+14-06-2025T20:44:24 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:44:24 - [TEST_STEP][PASSED] - verifyAlertPresent(2): Alert is present after 2 second(s).
+
+14-06-2025T20:44:24 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+14-06-2025T20:44:24 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+14-06-2025T20:44:24 - [MESSAGE][PASSED] - Alert accepted
+
+14-06-2025T20:44:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-06-2025T20:44:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-06-2025T20:44:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-06-2025T20:44:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2025T20:44:10 - [TEST_SUITE][PASSED] - delete_Employee: Test Cases/employee/delete/employee_delete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
